@@ -128,6 +128,7 @@ edited_df = st.data_editor(
         "DESCRIPCION": st.column_config.SelectboxColumn(
             "DESCRIPCION",
             help="Descripcion",
+            options=[],
             required=True,
         ),
     },
