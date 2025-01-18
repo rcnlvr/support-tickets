@@ -17,7 +17,7 @@ st.write(
 
 # Crear un data frame para guardar en el estado de sesión
 if "df" not in st.session_state:
-    st.session_state.df = pd.DataFrame(columns=[
+    df = pd.DataFrame(columns=[
         "ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "ESTADO", "ATENDIÓ", "DESCRIPCION"
     ])
 
@@ -89,8 +89,7 @@ if terminar:
                 "ASISTENCIA": asistencia,
                 "ESTADO": "En Proceso",
                 "ATENDIÓ": atencion,
-                "DESCRICPION": descripcion,
-                              
+                "DESCRIPCION": descripcion,            
             }
         ]
     )
@@ -123,7 +122,7 @@ edited_df = st.data_editor(
             options=["En Proceso", "Solucionado"],
             required=True,
         ),
-        "Priority": st.column_config.SelectboxColumn(
+        "DESCRIPCION": st.column_config.SelectboxColumn(
             "DESCRIPCION",
             help="Descripcion",
             required=True,
@@ -132,6 +131,10 @@ edited_df = st.data_editor(
     # Bloqueamos la edición del ID y de la fecha del ticket
     disabled=["ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "ATENDIÓ"],
 )
+
+# Guarda el data frame en el estado de sesión
+# Esto asegura que nuestros datos persisten aún cuando la app se actualiza
+st.session_state.df = df
 
 # Sección para mostrar las métricas del área
 st.header("Métricas")
