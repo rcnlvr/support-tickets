@@ -68,7 +68,7 @@ with st.form("add_ticket_form"):
     empresa = st.selectbox("Empresa", empresas)
     asistencia = st.selectbox("Asistencia", asistencias)
     atencion = st.selectbox("Atendió", sistemas)
-    descricion = st.text_area("Descripción")
+    descripcion = st.text_area("Descripción")
     terminar = st.form_submit_button("Terminar")
 
 if terminar:
