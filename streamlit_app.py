@@ -68,10 +68,10 @@ st.header("Añadir un ticket")
 # in a form, the app will only rerun once the submit button is pressed.
 with st.form("add_ticket_form"):
     asistencia = st.text_area("Descripción")
-    usuario = st.selectbox("Usuario", usuarios)
-    submitted = st.form_submit_button("Terminar")
+    usuario = st.selectbox("Priority", ["High", "Medium", "Low"])
+    terminar = st.form_submit_button("Terminar")
 
-if submitted:
+if terminar:
     # Make a dataframe for the new ticket and append it to the dataframe in session
     # state.
     recent_ticket_number = int(max(st.session_state.df.ID).split("-")[1])
@@ -80,26 +80,27 @@ if submitted:
         [
             {
                 "ID": f"TICKET-{recent_ticket_number+1}",
-                "Issue": issue,
-                "Status": "Open",
-                "Priority": priority,
-                "Date Submitted": today,
+                "FECHA": today,
+                "USUARIO": usuario, 
+                "ASISTENCIA": asistencia,
+                "ESTADO": "Abierto",
+                              
             }
         ]
     )
 
-    # Show a little success message.
-    st.write("Ticket submitted! Here are the ticket details:")
+    # Mensaje de creación de ticket
+    st.write("¡Ticket registrado! Aquí los detalles de tu ticket:")
     st.dataframe(df_new, use_container_width=True, hide_index=True)
     st.session_state.df = pd.concat([df_new, st.session_state.df], axis=0)
 
-# Show section to view and edit existing tickets in a table.
-st.header("Existing tickets")
-st.write(f"Number of tickets: `{len(st.session_state.df)}`")
+# Sección para ver y editar los tickets existentes
+st.header("Tickets existentes")
+st.write(f"Número de tickets: `{len(st.session_state.df)}`")
 
 st.info(
-    "You can edit the tickets by double clicking on a cell. Note how the plots below "
-    "update automatically! You can also sort the table by clicking on the column headers.",
+    "Puedes editar un ticket haciendo click en la celda. Los gráficos de abajo se actualizarán automáticamente."
+    "También puedes ordenar las columnas haciendo click en las cabeceras de las columnas",
     icon="✍️",
 )
 
@@ -123,12 +124,12 @@ edited_df = st.data_editor(
             required=True,
         ),
     },
-    # Disable editing the ID and Date Submitted columns.
-    disabled=["ID", "Date Submitted"],
+    # Bloqueamos la edición del ID y de la fecha del ticket
+    disabled=["ID", "FECHA"],
 )
 
-# Show some metrics and charts about the ticket.
-st.header("Statistics")
+# Sección para mostrar las métricas del área
+st.header("Métricas")
 
 # Show metrics side by side using `st.columns` and `st.metric`.
 col1, col2, col3 = st.columns(3)
