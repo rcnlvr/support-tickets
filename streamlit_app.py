@@ -45,7 +45,7 @@ if "df" not in st.session_state:
 
     # Generate the dataframe with 100 rows/tickets.
     data = {
-        "ID": [f"TICKET-{i}" for i in range(001, 100, -1)],
+        "ID": [f"TICKET-{i}" for i in range(1001, 1100, -1)],
         "FECHA": [
             datetime.date(2023, 6, 1) + datetime.timedelta(days=random.randint(0, 182))
             for _ in range(100)
