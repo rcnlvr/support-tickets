@@ -7,13 +7,11 @@ import pandas as pd
 import streamlit as st
 
 # Show app title and description.
-st.set_page_config(page_title="Support tickets", page_icon="🎫")
-st.title("🎫 Support tickets")
+st.set_page_config(page_title="Tickets de Soporte", page_icon="🎫")
+st.title("Tickets de Soporte 🎫")
 st.write(
     """
-    This app shows how you can build an internal tool in Streamlit. Here, we are 
-    implementing a support ticket workflow. The user can create a ticket, edit 
-    existing tickets, and view some statistics.
+    Actividades del área de sistemas
     """
 )
 
@@ -23,40 +21,38 @@ if "df" not in st.session_state:
     # Set seed for reproducibility.
     np.random.seed(42)
 
-    # Make up some fake issue descriptions.
-    issue_descriptions = [
-        "Network connectivity issues in the office",
-        "Software application crashing on startup",
-        "Printer not responding to print commands",
-        "Email server downtime",
-        "Data backup failure",
-        "Login authentication problems",
-        "Website performance degradation",
-        "Security vulnerability identified",
-        "Hardware malfunction in the server room",
-        "Employee unable to access shared files",
-        "Database connection failure",
-        "Mobile application not syncing data",
-        "VoIP phone system issues",
-        "VPN connection problems for remote employees",
-        "System updates causing compatibility issues",
-        "File server running out of storage space",
-        "Intrusion detection system alerts",
-        "Inventory management system errors",
-        "Customer data not loading in CRM",
-        "Collaboration tool not sending notifications",
+    # Arreglo de asistencias
+    asistencias = [
+        "Carpeta Compartida",
+        "Celular",
+        "Conmutador"
+        "Correo"
+        "Documento"
+        "Escáner",
+        "Equipo",
+        "SAE",
+        "Software",
+    ]
+
+    # Arreglo de usuarios
+    usuarios = [
+        "Aaron Othokani",
+        "Alma Salaís",
+        "Ana Enriquez",
+        "Antonio López",
+        "Brenda García",
     ]
 
     # Generate the dataframe with 100 rows/tickets.
     data = {
-        "ID": [f"TICKET-{i}" for i in range(1100, 1000, -1)],
-        "Issue": np.random.choice(issue_descriptions, size=100),
-        "Status": np.random.choice(["Open", "In Progress", "Closed"], size=100),
-        "Priority": np.random.choice(["High", "Medium", "Low"], size=100),
-        "Date Submitted": [
+        "ID": [f"TICKET-{i}" for i in range(001, 100, -1)],
+        "FECHA": [
             datetime.date(2023, 6, 1) + datetime.timedelta(days=random.randint(0, 182))
             for _ in range(100)
         ],
+        "USUARIO": np.random.choice(usuarios, size=100),
+        "ASISTENCIA": np.random.choice(asistencias, size=100),
+        "ESTADO": np.random.choice(["Solucionado", "En proceso"], size=100),
     }
     df = pd.DataFrame(data)
 
@@ -65,15 +61,15 @@ if "df" not in st.session_state:
     st.session_state.df = df
 
 
-# Show a section to add a new ticket.
-st.header("Add a ticket")
+# Sección para añadir un Ticket
+st.header("Añadir un ticket")
 
 # We're adding tickets via an `st.form` and some input widgets. If widgets are used
 # in a form, the app will only rerun once the submit button is pressed.
 with st.form("add_ticket_form"):
-    issue = st.text_area("Describe the issue")
-    priority = st.selectbox("Priority", ["High", "Medium", "Low"])
-    submitted = st.form_submit_button("Submit")
+    asistencia = st.text_area("Descripción")
+    usuario = st.selectbox("Usuario", usuarios)
+    submitted = st.form_submit_button("Terminar")
 
 if submitted:
     # Make a dataframe for the new ticket and append it to the dataframe in session
@@ -137,7 +133,7 @@ st.header("Statistics")
 # Show metrics side by side using `st.columns` and `st.metric`.
 col1, col2, col3 = st.columns(3)
 num_open_tickets = len(st.session_state.df[st.session_state.df.Status == "Open"])
-col1.metric(label="Number of open tickets", value=num_open_tickets, delta=10)
+col1.metric(label="Total de Tickets", value=num_open_tickets, delta=10)
 col2.metric(label="First response time (hours)", value=5.2, delta=-1.5)
 col3.metric(label="Average resolution time (hours)", value=16, delta=2)
 
