@@ -85,8 +85,8 @@ st.header("Añadir un ticket")
 # en un form, la app solo los devolverá cuando se haya pulsado el botón de terminar
 with st.form("add_ticket_form"):
     descricion = st.text_area("Descripción")
-    #asistencia = st.selectbox("Asistencia", ["High", "Medium", "Low"])
-    usuario = st.selectbox("Usuario", ["High", "Medium", "Low"])
+    #asistencia = st.selectbox("Asistencia", asistencias)
+    usuario = st.selectbox("Usuario", usuarios)
     atencion = st.selectbox("Atendió", ["León", "Ismael"])
     terminar = st.form_submit_button("Terminar")
 
