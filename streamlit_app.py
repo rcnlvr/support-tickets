@@ -84,7 +84,8 @@ st.header("Añadir un ticket")
 # We're adding tickets via an `st.form` and some input widgets. If widgets are used
 # in a form, the app will only rerun once the submit button is pressed.
 with st.form("add_ticket_form"):
-    asistencia = st.text_area("Descripción")
+    descricion = st.text_area("Descripción")
+    asistencia =
     usuario = st.selectbox("Priority", ["High", "Medium", "Low"])
     atencion = st.selectbox("Atendió", ["León", "Ismael"])
     terminar = st.form_submit_button("Terminar")
@@ -98,10 +99,12 @@ if terminar:
             {
                 "ID": f"TICKET-{recent_ticket_number+1}",
                 "FECHA": today,
-                "USUARIO": usuario, 
-                "ASISTENCIA": asistencia,
+                "USUARIO": usuario,
+                #"EMPRESA": empresa,
+                #"ASISTENCIA": asistencia,
                 "ESTADO": "Abierto",
                 "ATENDIÓ": atencion,
+                "DESCRICPION": descripcion,
                               
             }
         ]
