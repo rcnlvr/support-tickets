@@ -75,9 +75,9 @@ with st.form("add_ticket_form"):
 if terminar:
     # Creamos un data frame para el nuevo ticket y lo unimos al datframe de tickets existentes
     if st.session_state.df.empty:
-        recent_ticket_number = 0000
+        no_ticket = 0000
     else:
-        recent_ticket_number = int(max(st.session_state.df.ID).split("-")[1])
+        no_ticket = int(max(st.session_state.df.ID).split("-")[1])
     today = datetime.datetime.now().strftime("%m-%d-%Y")
     df_new = pd.DataFrame(
         [
