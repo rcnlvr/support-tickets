@@ -65,7 +65,6 @@ st.header("Añadir un ticket")
 # Añadimos tickets vía `st.form` con algunnos widgets de entrada. Si los widgets se usan
 # en un form, la app solo los devolverá cuando se haya pulsado el botón de terminar
 with st.form("add_ticket_form"):
-    no_ticket = 0000
     usuario = st.selectbox("Usuario", usuarios)
     empresa = st.selectbox("Empresa", empresas)
     asistencia = st.selectbox("Asistencia", asistencias)
@@ -75,7 +74,10 @@ with st.form("add_ticket_form"):
 
 if terminar:
     # Creamos un data frame para el nuevo ticket y lo unimos al datframe de tickets existentes
-    no_ticket = int(max(st.session_state.df.ID).split("-")[1])
+    if st.session_state.df.empty:
+        recent_ticket_number = 0000
+    else:
+        recent_ticket_number = int(max(st.session_state.df.ID).split("-")[1])
     today = datetime.datetime.now().strftime("%m-%d-%Y")
     df_new = pd.DataFrame(
         [
@@ -85,7 +87,7 @@ if terminar:
                 "USUARIO": usuario,
                 "EMPRESA": empresa,
                 "ASISTENCIA": asistencia,
-                "ESTADO": "Abierto",
+                "ESTADO": "En Proceso",
                 "ATENDIÓ": atencion,
                 "DESCRICPION": descripcion,
                               
@@ -128,7 +130,7 @@ edited_df = st.data_editor(
         ),
     },
     # Bloqueamos la edición del ID y de la fecha del ticket
-    disabled=["ID", "FECHA", "USUARIO", "EMPRESA"],
+    disabled=["ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "ATENDIÓ"],
 )
 
 # Sección para mostrar las métricas del área
