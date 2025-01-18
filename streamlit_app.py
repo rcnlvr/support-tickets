@@ -20,6 +20,9 @@ if "df" not in st.session_state:
     df = pd.DataFrame(columns=[
         "ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "ESTADO", "ATENDIÓ", "DESCRIPCION"
     ])
+    # Guarda el data frame en el estado de sesión
+    # Esto asegura que nuestros datos persisten aún cuando la app se actualiza
+    st.session_state.df = df
 
 # Arreglo de asistencias
 
@@ -131,10 +134,6 @@ edited_df = st.data_editor(
     # Bloqueamos la edición del ID y de la fecha del ticket
     disabled=["ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "ATENDIÓ"],
 )
-
-    # Guarda el data frame en el estado de sesión
-    # Esto asegura que nuestros datos persisten aún cuando la app se actualiza
-    st.session_state.df = df
 
 # Sección para mostrar las métricas del área
 st.header("Métricas")
