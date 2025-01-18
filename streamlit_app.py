@@ -18,7 +18,7 @@ st.write(
 # Crear un data frame para guardar en el estado de sesión
 if "df" not in st.session_state:
     st.session_state.df = pd.DataFrame(columns=[
-        "ID": [f"TICKET-{i}" for i in range(0000, 1000, +1)], "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "ESTADO", "ATENDIÓ", "DESCRIPCION"
+        "ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "ESTADO", "ATENDIÓ", "DESCRIPCION"
     ])
 
 # Arreglo de asistencias
@@ -69,6 +69,7 @@ with st.form("add_ticket_form"):
     asistencia = st.selectbox("Asistencia", asistencias)
     atencion = st.selectbox("Atendió", sistemas)
     descricion = st.text_area("Descripción")
+    no_ticket = [f"TICKET-{i}" for i in range(0000, 1000, +1)]
     terminar = st.form_submit_button("Terminar")
 
 if terminar:
