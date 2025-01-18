@@ -82,41 +82,41 @@ if "df" not in st.session_state:
 st.header("Añadir un ticket")
 
 # Arreglo de asistencias
-    asistencias = [
-        "Carpeta Compartida",
-        "Celular",
-        "Conmutador"
-        "Correo"
-        "Documento"
-        "Escáner",
-        "Equipo",
-        "SAE",
-        "Software",
-    ]
+asistencias = [
+    "Carpeta Compartida",
+    "Celular",
+    "Conmutador"
+    "Correo"
+    "Documento"
+    "Escáner",
+    "Equipo",
+    "SAE",
+    "Software",
+]
 
-    # Arreglo de usuarios
-    usuarios = [
-        "Aaron Othokani",
-        "Alma Salaís",
-        "Ana Enriquez",
-        "Antonio López",
-        "Brenda García",
-    ]
+# Arreglo de usuarios
+usuarios = [
+    "Aaron Othokani",
+    "Alma Salaís",
+    "Ana Enriquez",
+    "Antonio López",
+    "Brenda García",
+]
 
-    #Arreglo de empresas
-    empresas = [
-        "CODEQUIM",
-        "MEDICA DEL VALLE",
-        "KILLVEC",
-        "EXTERPLAG",
-        "PAINTSHIELD",
-    ]
+#Arreglo de empresas
+empresas = [
+    "CODEQUIM",
+    "MEDICA DEL VALLE",
+    "KILLVEC",
+    "EXTERPLAG",
+    "PAINTSHIELD",
+]
 
-    # Arreglo del personal
-    sistemas = [
-        "León Hernández",
-        "Ismael",
-    ]
+# Arreglo del personal
+sistemas = [
+    "León Hernández",
+    "Ismael",
+]
 
 # Añadimos tickets vía `st.form` con algunnos widgets de entrada. Si los widgets se usan
 # en un form, la app solo los devolverá cuando se haya pulsado el botón de terminar
