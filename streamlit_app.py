@@ -69,12 +69,14 @@ with st.form("add_ticket_form"):
     asistencia = st.selectbox("Asistencia", asistencias)
     atencion = st.selectbox("Atendió", sistemas)
     descricion = st.text_area("Descripción")
-    no_ticket = [f"TICKET-{i}" for i in range(0000, 1000, +1)]
     terminar = st.form_submit_button("Terminar")
 
 if terminar:
     # Creamos un data frame para el nuevo ticket y lo unimos al datframe de tickets existentes
-    no_ticket = int(max(st.session_state.df.ID).split("-")[1])
+    if st.session_state.df.empty:
+        recent_ticket_number = 0000
+    else:
+        recent_ticket_number = int(max(st.session_state.df.ID).split("-")[1])
     today = datetime.datetime.now().strftime("%m-%d-%Y")
     df_new = pd.DataFrame(
         [
