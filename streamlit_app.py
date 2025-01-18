@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-# Show app title and description.
+# Título y descriçión de la app
 st.set_page_config(page_title="Tickets de Soporte", page_icon="🎫")
 st.title("Tickets de Soporte 🎫")
 st.write(
@@ -15,7 +15,7 @@ st.write(
     """
 )
 
-# Create a random Pandas dataframe with existing tickets.
+# Crear un data frame random con tickets existentes
 if "df" not in st.session_state:
 
     # Set seed for reproducibility.
@@ -43,6 +43,21 @@ if "df" not in st.session_state:
         "Brenda García",
     ]
 
+    #Arreglo de empresas
+    empresas = [
+        "CODEQUIM",
+        "MEDICA DEL VALLE",
+        "KILLVEC",
+        "EXTERPLAG",
+        "PAINTSHIELD",
+    ]
+
+    # Arreglo del personal
+    sistemas = [
+        "León Hernández",
+        "Ismael",
+    ]
+
     # Generate the dataframe with 100 rows/tickets.
     data = {
         "ID": [f"TICKET-{i}" for i in range(1100, 1000, -1)],
@@ -51,8 +66,10 @@ if "df" not in st.session_state:
             for _ in range(100)
         ],
         "USUARIO": np.random.choice(usuarios, size=100),
+        "EMPRESA": np.random.choice(empresas, size=100)
         "ASISTENCIA": np.random.choice(asistencias, size=100),
         "ESTADO": np.random.choice(["Solucionado", "En proceso"], size=100),
+        "ATENDIÓ": np.random.choice(sistemas, size=100)
     }
     df = pd.DataFrame(data)
 
@@ -69,11 +86,11 @@ st.header("Añadir un ticket")
 with st.form("add_ticket_form"):
     asistencia = st.text_area("Descripción")
     usuario = st.selectbox("Priority", ["High", "Medium", "Low"])
+    atencion = st.selectbox("Atendió", ["León", "Ismael"])
     terminar = st.form_submit_button("Terminar")
 
 if terminar:
-    # Make a dataframe for the new ticket and append it to the dataframe in session
-    # state.
+    # Creamos un data frame para el nuevo ticket y lo unimos al datframe de tickets existentes
     recent_ticket_number = int(max(st.session_state.df.ID).split("-")[1])
     today = datetime.datetime.now().strftime("%m-%d-%Y")
     df_new = pd.DataFrame(
@@ -84,6 +101,7 @@ if terminar:
                 "USUARIO": usuario, 
                 "ASISTENCIA": asistencia,
                 "ESTADO": "Abierto",
+                "ATENDIÓ": atencion,
                               
             }
         ]
@@ -104,8 +122,8 @@ st.info(
     icon="✍️",
 )
 
-# Show the tickets dataframe with `st.data_editor`. This lets the user edit the table
-# cells. The edited data is returned as a new dataframe.
+# Mostrar el data frame de tickets editable
+# Los datos editados se devuelven como un nuevo data frame
 edited_df = st.data_editor(
     st.session_state.df,
     use_container_width=True,
@@ -131,21 +149,20 @@ edited_df = st.data_editor(
 # Sección para mostrar las métricas del área
 st.header("Métricas")
 
-# Show metrics side by side using `st.columns` and `st.metric`.
 col1, col2, col3 = st.columns(3)
 num_open_tickets = len(st.session_state.df[st.session_state.df.ESTADO == "Solucionado"])
 col1.metric(label="Total de Tickets", value=num_open_tickets, delta=10)
 col2.metric(label="First response time (hours)", value=5.2, delta=-1.5)
-col3.metric(label="Average resolution time (hours)", value=16, delta=2)
+col3.metric(label="Tiempo promedio de respuesta (hrs)", value=16, delta=2)
 
 # Show two Altair charts using `st.altair_chart`.
 st.write("")
-st.write("##### Ticket status per month")
+st.write("Estatus de Ticket mensual")
 status_plot = (
     alt.Chart(edited_df)
     .mark_bar()
     .encode(
-        x="month(Date Submitted):O",
+        x="month(FECHA):O",
         y="count():Q",
         xOffset="Status:N",
         color="Status:N",
