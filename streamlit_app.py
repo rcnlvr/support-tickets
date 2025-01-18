@@ -18,7 +18,7 @@ st.write(
 # Crear un data frame para guardar en el estado de sesión
 if "df" not in st.session_state:
     st.session_state.df = pd.DataFrame(columns=[
-        "ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "ESTADO", "ATENDIÓ", "DESCRIPCION"
+        "ID": [f"TICKET-{i}" for i in range(0000, 1000, +1)], "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "ESTADO", "ATENDIÓ", "DESCRIPCION"
     ])
 
 # Arreglo de asistencias
@@ -73,12 +73,12 @@ with st.form("add_ticket_form"):
 
 if terminar:
     # Creamos un data frame para el nuevo ticket y lo unimos al datframe de tickets existentes
-    recent_ticket_number = int(max(st.session_state.df.ID).split("-")[1])
+    no_ticket = int(max(st.session_state.df.ID).split("-")[1])
     today = datetime.datetime.now().strftime("%m-%d-%Y")
     df_new = pd.DataFrame(
         [
             {
-                "ID": f"TICKET-{recent_ticket_number+1}",
+                "ID": f"TICKET-{no_ticket+1}",
                 "FECHA": today,
                 "USUARIO": usuario,
                 "EMPRESA": empresa,
