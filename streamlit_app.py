@@ -81,12 +81,12 @@ if "df" not in st.session_state:
 # Sección para añadir un Ticket
 st.header("Añadir un ticket")
 
-# We're adding tickets via an `st.form` and some input widgets. If widgets are used
-# in a form, the app will only rerun once the submit button is pressed.
+# Añadimos tickets vía `st.form` con algunnos widgets de entrada. Si los widgets se usan
+# en un form, la app solo los devolverá cuando se haya pulsado el botón de terminar
 with st.form("add_ticket_form"):
     descricion = st.text_area("Descripción")
-    asistencia =
-    usuario = st.selectbox("Priority", ["High", "Medium", "Low"])
+    #asistencia = st.selectbox("Asistencia", ["High", "Medium", "Low"])
+    usuario = st.selectbox("Usuario", ["High", "Medium", "Low"])
     atencion = st.selectbox("Atendió", ["León", "Ismael"])
     terminar = st.form_submit_button("Terminar")
 
