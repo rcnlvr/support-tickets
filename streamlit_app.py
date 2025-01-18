@@ -132,9 +132,9 @@ edited_df = st.data_editor(
     disabled=["ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "ATENDIÓ"],
 )
 
-# Guarda el data frame en el estado de sesión
-# Esto asegura que nuestros datos persisten aún cuando la app se actualiza
-st.session_state.df = df
+    # Guarda el data frame en el estado de sesión
+    # Esto asegura que nuestros datos persisten aún cuando la app se actualiza
+    st.session_state.df = df
 
 # Sección para mostrar las métricas del área
 st.header("Métricas")
