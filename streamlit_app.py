@@ -15,71 +15,11 @@ st.write(
     """
 )
 
-# Crear un data frame random con tickets existentes
+# Crear un data frame para guardar en el estado de sesión
 if "df" not in st.session_state:
-
-    # Set seed for reproducibility.
-    np.random.seed(42)
-
-    # Arreglo de asistencias
-    asistencias = [
-        "Carpeta Compartida",
-        "Celular",
-        "Conmutador"
-        "Correo"
-        "Documento"
-        "Escáner",
-        "Equipo",
-        "SAE",
-        "Software",
-    ]
-
-    # Arreglo de usuarios
-    usuarios = [
-        "Aaron Othokani",
-        "Alma Salaís",
-        "Ana Enriquez",
-        "Antonio López",
-        "Brenda García",
-    ]
-
-    #Arreglo de empresas
-    empresas = [
-        "CODEQUIM",
-        "MEDICA DEL VALLE",
-        "KILLVEC",
-        "EXTERPLAG",
-        "PAINTSHIELD",
-    ]
-
-    # Arreglo del personal
-    sistemas = [
-        "León Hernández",
-        "Ismael",
-    ]
-
-    # Generate the dataframe with 100 rows/tickets.
-    data = {
-        "ID": [f"TICKET-{i}" for i in range(1100, 1000, -1)],
-        "FECHA": [
-            datetime.date(2023, 6, 1) + datetime.timedelta(days=random.randint(0, 182))
-            for _ in range(100)
-        ],
-        "USUARIO": np.random.choice(usuarios, size=100),
-        "EMPRESA": np.random.choice(empresas, size=100),
-        "ASISTENCIA": np.random.choice(asistencias, size=100),
-        "ESTADO": np.random.choice(["Solucionado", "En proceso"], size=100),
-        "ATENDIÓ": np.random.choice(sistemas, size=100),
-    }
-    df = pd.DataFrame(data)
-
-    # Save the dataframe in session state (a dictionary-like object that persists across
-    # page runs). This ensures our data is persisted when the app updates.
-    st.session_state.df = df
-
-
-# Sección para añadir un Ticket
-st.header("Añadir un ticket")
+    st.session_state.df = pd.DataFrame(columns=[
+        "ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "ESTADO", "ATENDIÓ", "DESCRIPCION"
+    ])
 
 # Arreglo de asistencias
 asistencias = [
@@ -118,13 +58,17 @@ sistemas = [
     "Ismael",
 ]
 
+# Sección para añadir un Ticket
+st.header("Añadir un ticket")
+
 # Añadimos tickets vía `st.form` con algunnos widgets de entrada. Si los widgets se usan
 # en un form, la app solo los devolverá cuando se haya pulsado el botón de terminar
 with st.form("add_ticket_form"):
-    descricion = st.text_area("Descripción")
-    #asistencia = st.selectbox("Asistencia", asistencias)
     usuario = st.selectbox("Usuario", usuarios)
-    atencion = st.selectbox("Atendió", ["León", "Ismael"])
+    empresa = st.selectbox("Empresa", empresas)
+    asistencia = st.selectbox("Asistencia", asistencias)
+    atencion = st.selectbox("Atendió", sistemas)
+    descricion = st.text_area("Descripción")
     terminar = st.form_submit_button("Terminar")
 
 if terminar:
@@ -137,8 +81,8 @@ if terminar:
                 "ID": f"TICKET-{recent_ticket_number+1}",
                 "FECHA": today,
                 "USUARIO": usuario,
-                #"EMPRESA": empresa,
-                #"ASISTENCIA": asistencia,
+                "EMPRESA": empresa,
+                "ASISTENCIA": asistencia,
                 "ESTADO": "Abierto",
                 "ATENDIÓ": atencion,
                 "DESCRICPION": descripcion,
