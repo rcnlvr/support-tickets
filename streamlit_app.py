@@ -22,6 +22,7 @@ if "df" not in st.session_state:
     ])
 
 # Arreglo de asistencias
+
 asistencias = [
     "Carpeta Compartida",
     "Celular",
@@ -55,7 +56,7 @@ empresas = [
 # Arreglo del personal
 sistemas = [
     "León Hernández",
-    "Ismael",
+    "Ismael Jiménez",
 ]
 
 # Sección para añadir un Ticket
@@ -64,6 +65,7 @@ st.header("Añadir un ticket")
 # Añadimos tickets vía `st.form` con algunnos widgets de entrada. Si los widgets se usan
 # en un form, la app solo los devolverá cuando se haya pulsado el botón de terminar
 with st.form("add_ticket_form"):
+    no_ticket = 0000
     usuario = st.selectbox("Usuario", usuarios)
     empresa = st.selectbox("Empresa", empresas)
     asistencia = st.selectbox("Asistencia", asistencias)
@@ -73,10 +75,7 @@ with st.form("add_ticket_form"):
 
 if terminar:
     # Creamos un data frame para el nuevo ticket y lo unimos al datframe de tickets existentes
-    if st.session_state.df.empty:
-        no_ticket = 0000
-    else:
-        no_ticket = int(max(st.session_state.df.ID).split("-")[1])
+    no_ticket = int(max(st.session_state.df.ID).split("-")[1])
     today = datetime.datetime.now().strftime("%m-%d-%Y")
     df_new = pd.DataFrame(
         [
@@ -104,7 +103,7 @@ st.header("Tickets existentes")
 st.write(f"Número de tickets: `{len(st.session_state.df)}`")
 
 st.info(
-    "Puedes editar un ticket haciendo click en la celda. Los gráficos de abajo se actualizarán automáticamente."
+    "Puedes editar un ticket haciendo click en la celda. Los gráficos de abajo se actualizarán automáticamente. "
     "También puedes ordenar las columnas haciendo click en las cabeceras de las columnas",
     icon="✍️",
 )
@@ -116,21 +115,20 @@ edited_df = st.data_editor(
     use_container_width=True,
     hide_index=True,
     column_config={
-        "Status": st.column_config.SelectboxColumn(
-            "Status",
+        "ESTADO": st.column_config.SelectboxColumn(
+            "ESTADO",
             help="Ticket status",
-            options=["Open", "In Progress", "Closed"],
+            options=["En Proceso", "Solucionado"],
             required=True,
         ),
         "Priority": st.column_config.SelectboxColumn(
-            "Priority",
-            help="Priority",
-            options=["High", "Medium", "Low"],
+            "DESCRIPCION",
+            help="Descripcion",
             required=True,
         ),
     },
     # Bloqueamos la edición del ID y de la fecha del ticket
-    disabled=["ID", "FECHA"],
+    disabled=["ID", "FECHA", "USUARIO", "EMPRESA"],
 )
 
 # Sección para mostrar las métricas del área
