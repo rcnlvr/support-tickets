@@ -68,7 +68,7 @@ st.header("Añadir un ticket")
 # in a form, the app will only rerun once the submit button is pressed.
 with st.form("add_ticket_form"):
     asistencia = st.text_area("Descripción")
-    usuario = st.selectbox("Usuario", [usuarios])
+    usuario = st.selectbox("Usuario", usuarios)
     submitted = st.form_submit_button("Terminar")
 
 if submitted:
