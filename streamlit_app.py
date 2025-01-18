@@ -66,10 +66,10 @@ if "df" not in st.session_state:
             for _ in range(100)
         ],
         "USUARIO": np.random.choice(usuarios, size=100),
-        "EMPRESA": np.random.choice(empresas, size=100)
+        "EMPRESA": np.random.choice(empresas, size=100),
         "ASISTENCIA": np.random.choice(asistencias, size=100),
         "ESTADO": np.random.choice(["Solucionado", "En proceso"], size=100),
-        "ATENDIÓ": np.random.choice(sistemas, size=100)
+        "ATENDIÓ": np.random.choice(sistemas, size=100),
     }
     df = pd.DataFrame(data)
 
