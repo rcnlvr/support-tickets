@@ -72,7 +72,7 @@ with st.form("add_ticket_form"):
     empresa = st.selectbox("Empresa", empresas)
     asistencia = st.selectbox("Asistencia", asistencias)
     atencion = st.selectbox("Atendió", sistemas)
-    descripcion = st.text_area("Descripción")
+    descripcion = st.text_area("Descripcion")
     terminar = st.form_submit_button("Terminar")
 
 if terminar:
@@ -124,16 +124,10 @@ edited_df = st.data_editor(
             help="Ticket status",
             options=["En Proceso", "Solucionado"],
             required=True,
-        ),
-        "DESCRIPCION": st.column_config.SelectboxColumn(
-            "DESCRIPCION",
-            help="Descripcion",
-            options=[],
-            required=True,
-        ),
+        )
     },
     # Bloqueamos la edición del ID y de la fecha del ticket
-    disabled=["ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "ATENDIÓ"],
+    disabled=["ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "ATENDIÓ", "DESCRIPCION"],
 )
 
 # Sección para mostrar las métricas del área
