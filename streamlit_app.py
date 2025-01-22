@@ -15,23 +15,35 @@ st.write(
     """
 )
 
-# Crear un data frame para guardar en el estado de sesión
-if "df" not in st.session_state:
+# Leer el archivo CSV existente
+try:
+    df = pd.read_csv('tickets.csv')
+except FileNotFoundError:
     df = pd.DataFrame(columns=[
         "ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "ESTADO", "ATENDIÓ", "DESCRIPCION"
     ])
+
+# Guardar el DataFrame en el estado de sesión
+if "df" not in st.session_state:
+    st.session_state.df = df
+
+# Crear un data frame para guardar en el estado de sesión
+#if "df" not in st.session_state:
+ #   df = pd.DataFrame(columns=[
+  #      "ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "ESTADO", "ATENDIÓ", "DESCRIPCION"
+   # ])
     # Guarda el data frame en el estado de sesión
     # Esto asegura que nuestros datos persisten aún cuando la app se actualiza
-    st.session_state.df = df
+    #st.session_state.df = df
 
 # Arreglo de asistencias
 
 asistencias = [
     "Carpeta Compartida",
     "Celular",
-    "Conmutador"
-    "Correo"
-    "Documento"
+    "Conmutador",
+    "Correo",
+    "Documento",
     "Escáner",
     "Equipo",
     "SAE",
@@ -101,6 +113,7 @@ if terminar:
     st.write("¡Ticket registrado! Aquí los detalles de tu ticket:")
     st.dataframe(df_new, use_container_width=True, hide_index=True)
     st.session_state.df = pd.concat([df_new, st.session_state.df], axis=0)
+    st.session_state.df.to_csv('datos.csv', index=False)
 
 # Sección para ver y editar los tickets existentes
 st.header("Tickets existentes")
@@ -138,6 +151,11 @@ num_open_tickets = len(st.session_state.df[st.session_state.df.ESTADO == "Soluci
 col1.metric(label="Total de Tickets", value=num_open_tickets, delta=10)
 col2.metric(label="First response time (hours)", value=5.2, delta=-1.5)
 col3.metric(label="Tiempo promedio de respuesta (hrs)", value=16, delta=2)
+
+# Actualizar el DataFrame en el estado de sesión y guardar en el archivo CSV si hay cambios
+if not edited_df.equals(st.session_state.df):
+    st.session_state.df = edited_df
+    st.session_state.df.to_csv('datos.csv', index=False)
 
 # Show two Altair charts using `st.altair_chart`.
 st.write("")
