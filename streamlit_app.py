@@ -113,7 +113,7 @@ if terminar:
     st.write("¡Ticket registrado! Aquí los detalles de tu ticket:")
     st.dataframe(df_new, use_container_width=True, hide_index=True)
     st.session_state.df = pd.concat([df_new, st.session_state.df], axis=0)
-    st.session_state.df.to_csv('datos.csv', index=False)
+    st.session_state.df.to_csv('tickets.csv', index=False)
 
 # Sección para ver y editar los tickets existentes
 st.header("Tickets existentes")
