@@ -20,24 +20,14 @@ try:
     df = pd.read_csv('tickets.csv')
 except FileNotFoundError:
     df = pd.DataFrame(columns=[
-        "ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "ESTADO", "ATENDIÓ", "DESCRIPCION"
+        "ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "ESTADO", "ATENDIÓ", "DESCRIPCIÓN"
     ])
 
 # Guardar el DataFrame en el estado de sesión
 if "df" not in st.session_state:
     st.session_state.df = df
 
-# Crear un data frame para guardar en el estado de sesión
-#if "df" not in st.session_state:
- #   df = pd.DataFrame(columns=[
-  #      "ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "ESTADO", "ATENDIÓ", "DESCRIPCION"
-   # ])
-    # Guarda el data frame en el estado de sesión
-    # Esto asegura que nuestros datos persisten aún cuando la app se actualiza
-    #st.session_state.df = df
-
 # Arreglo de asistencias
-
 asistencias = [
     "Carpeta Compartida",
     "Celular",
@@ -84,7 +74,7 @@ with st.form("add_ticket_form"):
     empresa = st.selectbox("Empresa", empresas)
     asistencia = st.selectbox("Asistencia", asistencias)
     atencion = st.selectbox("Atendió", sistemas)
-    descripcion = st.text_area("Descripcion")
+    descripcion = st.text_area("Descripción")
     terminar = st.form_submit_button("Terminar")
 
 if terminar:
@@ -104,7 +94,7 @@ if terminar:
                 "ASISTENCIA": asistencia,
                 "ESTADO": "En Proceso",
                 "ATENDIÓ": atencion,
-                "DESCRIPCION": descripcion,            
+                "DESCRIPCIÓN": descripcion,            
             }
         ]
     )
@@ -117,11 +107,11 @@ if terminar:
 
 # Sección para ver y editar los tickets existentes
 st.header("Tickets existentes")
-st.write(f"Número de tickets: `{len(st.session_state.df)}`")
+df_total = pd.read_csv('datos.csv')
+st.write(f"Número de tickets: `{len(df_total)}`")
 
 st.info(
-    "Puedes editar un ticket haciendo click en la celda. Los gráficos de abajo se actualizarán automáticamente. "
-    "También puedes ordenar las columnas haciendo click en las cabeceras de las columnas",
+    "Recuerda cambiar el estado del ticket a solucionado una vez atendido",
     icon="✍️",
 )
 
@@ -155,7 +145,7 @@ col3.metric(label="Tiempo promedio de respuesta (hrs)", value=16, delta=2)
 # Actualizar el DataFrame en el estado de sesión y guardar en el archivo CSV si hay cambios
 if not edited_df.equals(st.session_state.df):
     st.session_state.df = edited_df
-    st.session_state.df.to_csv('datos.csv', index=False)
+    st.session_state.df.to_csv('tickets.csv', index=False)
 
 # Show two Altair charts using `st.altair_chart`.
 st.write("")
