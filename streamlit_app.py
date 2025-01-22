@@ -133,6 +133,11 @@ edited_df = st.data_editor(
     disabled=["ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "ATENDIÓ", "DESCRIPCION"],
 )
 
+# Actualizar el DataFrame en el estado de sesión y guardar en el archivo CSV si hay cambios
+if not edited_df.equals(st.session_state.df):
+    st.session_state.df = edited_df
+    st.session_state.df.to_csv('tickets.csv', index=False)
+
 # Sección para mostrar las métricas del área
 st.header("Métricas")
 
@@ -141,11 +146,6 @@ num_open_tickets = len(st.session_state.df[st.session_state.df.ESTADO == "Soluci
 col1.metric(label="Total de Tickets", value=num_open_tickets, delta=10)
 col2.metric(label="First response time (hours)", value=5.2, delta=-1.5)
 col3.metric(label="Tiempo promedio de respuesta (hrs)", value=16, delta=2)
-
-# Actualizar el DataFrame en el estado de sesión y guardar en el archivo CSV si hay cambios
-if not edited_df.equals(st.session_state.df):
-    st.session_state.df = edited_df
-    st.session_state.df.to_csv('tickets.csv', index=False)
 
 # Show two Altair charts using `st.altair_chart`.
 st.write("")
