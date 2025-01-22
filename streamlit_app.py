@@ -107,7 +107,7 @@ if terminar:
 
 # Sección para ver y editar los tickets existentes
 st.header("Tickets existentes")
-df_total = pd.read_csv('datos.csv')
+df_total = pd.read_csv('tickets.csv')
 st.write(f"Número de tickets: `{len(df_total)}`")
 
 st.info(
