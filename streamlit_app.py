@@ -1,10 +1,10 @@
 import datetime
 import random
-
 import altair as alt
 import numpy as np
 import pandas as pd
 import streamlit as st
+import pytz
 
 # Título y descriçión de la app
 st.set_page_config(page_title="Tickets de Soporte", page_icon="🎫")
@@ -20,7 +20,7 @@ try:
     df = pd.read_csv('tickets.csv')
 except FileNotFoundError:
     df = pd.DataFrame(columns=[
-        "ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "ESTADO", "ATENDIÓ", "DESCRIPCIÓN"
+        "ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "HORA", "STATUS", "ATENDIÓ", "DESCRIPCIÓN"
     ])
 
 # Guardar el DataFrame en el estado de sesión
@@ -83,16 +83,20 @@ if terminar:
         no_ticket = 0000
     else:
         no_ticket = int(max(st.session_state.df.ID).split("-")[1])
-    today = datetime.datetime.now().strftime("%m-%d-%Y")
+    #Configuramos la zona horaria de CDMX
+    cdmx_tz = pytz.timezone('America/Mexico_City')
+    fecha = datetime.datetime.now(cdmx_tz).strftime("%d/%m/%Y")
+    hora = datetime.datetime.now(cdmx_tz).strftime("%H:%M:%S")
     df_new = pd.DataFrame(
         [
             {
                 "ID": f"TICKET-{no_ticket+1}",
-                "FECHA": today,
+                "FECHA": fecha,
+                "HORA": hora,
                 "USUARIO": usuario,
                 "EMPRESA": empresa,
                 "ASISTENCIA": asistencia,
-                "ESTADO": "En Proceso",
+                "STATUS": "En Proceso",
                 "ATENDIÓ": atencion,
                 "DESCRIPCIÓN": descripcion,            
             }
@@ -122,8 +126,8 @@ edited_df = st.data_editor(
     use_container_width=True,
     hide_index=True,
     column_config={
-        "ESTADO": st.column_config.SelectboxColumn(
-            "ESTADO",
+        "STATUS": st.column_config.SelectboxColumn(
+            "STATUS",
             help="Ticket status",
             options=["En Proceso", "Solucionado"],
             required=True,
@@ -142,7 +146,7 @@ if not edited_df.equals(st.session_state.df):
 st.header("Métricas")
 
 col1, col2, col3 = st.columns(3)
-num_open_tickets = len(st.session_state.df[st.session_state.df.ESTADO == "Solucionado"])
+num_open_tickets = len(st.session_state.df[st.session_state.df.STATUS == "Solucionado"])
 col1.metric(label="Total de Tickets", value=num_open_tickets, delta=10)
 col2.metric(label="First response time (hours)", value=5.2, delta=-1.5)
 col3.metric(label="Tiempo promedio de respuesta (hrs)", value=16, delta=2)
