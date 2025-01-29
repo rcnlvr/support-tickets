@@ -20,7 +20,7 @@ try:
     df = pd.read_csv('tickets.csv')
 except FileNotFoundError:
     df = pd.DataFrame(columns=[
-        "ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "HORA", "STATUS", "ATENDIÓ", "DESCRIPCIÓN"
+        "ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "HORA INICIO", "HORA FIN", "STATUS", "ATENDIÓ", "DESCRIPCIÓN"
     ])
 
 # Guardar el DataFrame en el estado de sesión
@@ -86,13 +86,14 @@ if terminar:
     #Configuramos la zona horaria de CDMX
     cdmx_tz = pytz.timezone('America/Mexico_City')
     fecha = datetime.datetime.now(cdmx_tz).strftime("%d/%m/%Y")
-    hora = datetime.datetime.now(cdmx_tz).strftime("%H:%M:%S")
+    hora = datetime.datetime.now(cdmx_tz).strftime("%H:%M")
     df_new = pd.DataFrame(
         [
             {
                 "ID": f"TICKET-{no_ticket+1}",
                 "FECHA": fecha,
-                "HORA": hora,
+                "HORA INICIO": hora,
+                "HORA FIN": "",
                 "USUARIO": usuario,
                 "EMPRESA": empresa,
                 "ASISTENCIA": asistencia,
@@ -133,8 +134,8 @@ edited_df = st.data_editor(
             required=True,
         )
     },
-    # Bloqueamos la edición del ID y de la fecha del ticket
-    disabled=["ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "ATENDIÓ", "DESCRIPCION"],
+    # Bloqueamos la edición del resto de columnas
+    disabled=["ID", "FECHA", "HORA", "USUARIO", "EMPRESA", "ASISTENCIA", "ATENDIÓ", "DESCRIPCIÓN"],
 )
 
 # Actualizar el DataFrame en el estado de sesión y guardar en el archivo CSV si hay cambios
