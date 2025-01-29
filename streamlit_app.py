@@ -86,7 +86,7 @@ if terminar:
     #Configuramos la zona horaria de CDMX
     cdmx_tz = pytz.timezone('America/Mexico_City')
     fecha = datetime.datetime.now(cdmx_tz).strftime("%d/%m/%Y")
-    hora = datetime.datetime.now(cdmx_tz).strftime("%H:%M")
+    hora = datetime.datetime.now(cdmx_tz).strftime("%H:%M:%S")
     df_new = pd.DataFrame(
         [
             {
@@ -135,7 +135,7 @@ edited_df = st.data_editor(
         )
     },
     # Bloqueamos la edición del resto de columnas
-    disabled=["ID", "FECHA", "HORA", "USUARIO", "EMPRESA", "ASISTENCIA", "ATENDIÓ", "DESCRIPCIÓN"],
+    disabled=["ID", "FECHA", "HORA INICIO", "HORA FIN", "USUARIO", "EMPRESA", "ASISTENCIA", "ATENDIÓ", "DESCRIPCIÓN"],
 )
 
 # Actualizar el DataFrame en el estado de sesión y guardar en el archivo CSV si hay cambios
