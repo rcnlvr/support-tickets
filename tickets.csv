@@ -1,0 +1,326 @@
+﻿ID,FECHA,HORA INICIO,HORA FIN,USUARIO,EMPRESA,ASISTENCIA,STATUS,SOLICITUD,ATENDIÓ,DESCRIPCIÓN
+TICKET-325,06/02/2025,12:40,13:15,Karina Ramirez,CODEQUIM,Internet,Solucionado,Whatsapp,León Hernández,Cambiar contraseña de WIFI STARLINK.
+TICKET-324,06/02/2025,12:30,12:40,Mariana Barrios,CODEQUIM,Documentos,Solucionado,Presencial,León Hernández,Reenvio de factura de starlink.
+TICKET-323,06/02/2025,12:15,12:22,Antonio López,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Apoyo para desatasco de papel en la impresora
+TICKET-322,06/02/2025,11:00,13:00,Usiel Silva,CODEQUIM,Equipo,Solucionado,Presencial,Ismael Jiménez,Configuración y cambio de equipo de cmómputo
+TICKET-321,06/02/2025,10:45,11:00,Usiel Silva,CODEQUIM,Documentos,Solucionado,Presencial,León Hernández,Editar puesto en tarjetas de presentacion. 
+TICKET-320,05/02/2025,16:00,16:15,Antonio López,CODEQUIM,Impresora,Solucionado,Presencial,León Hernández,Apoyo para imprimir en xerox.
+TICKET-319,05/02/2025,15:15,15:30,Andres Insectario,CODEQUIM,Documentos,Solucionado,Whatsapp,León Hernández,Envio de documentos pesados por wetransfer.
+TICKET-318,05/02/2025,13:00,13:30,Mauricio Ramirez,CODEQUIM,Cotizacion,Solucionado,Presencial,León Hernández,Apoyo en cotizar 174 tablets Samsung A9.
+TICKET-317,05/02/2025,10:30,10:45,Antonio López,CODEQUIM,SAE,Solucionado,Presencial,León Hernández,Apoyo para facturar e ingresar descripcion en PDF.
+TICKET-316,05/02/2025,12:08,12:13,Henry Guillén,CODEQUIM,SAE,Solucionado,Presencial,Ismael Jiménez,Conexión de unidad DACASPEL
+TICKET-315,04/02/2025,15:30,16:00,AndresAlmacen,CODEQUIM,Outlook,Solucionado,Whatsapp,León Hernández,"Revisar correo de Outlook, se le dio accesio via webmail."
+TICKET-314,04/02/2025,15:00,15:30,Javier Azuara,CODEQUIM,Laptop,Solucionado,Presencial,León Hernández,Conectar escritorio remoto al server.
+TICKET-313,04/02/2025,16:00,16:30,Daniela Sanchez,CODEQUIM,SAE,Solucionado,Presencial,León Hernández,Solicitar volver a subir layout de costos de insecticidas.
+TICKET-312,04/02/2025,11:00,11:30,Henry Guillén,CODEQUIM,SAE,Solucionado,Presencial,León Hernández,Solicitar volver a subir layout de proveedores.
+TICKET-311,04/02/2025,11:50,11:55,Leonardo,MEDICA DEL VALLE,Equipo,Solucionado,Presencial,Ismael Jiménez,Configuración de red wi fi en equipo de usuario invitado
+TICKET-310,04/02/2025,11:15,11:20,Vania Ramirez,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Desatasco de trabajo en impresora para corregir error.
+TICKET-309,04/02/2025,11:40,11:45,Leslye López,CODEQUIM,Equipo,Solucionado,Presencial,Ismael Jiménez,Préstamo de equipo con excel para consultas
+TICKET-308,04/02/2025,11:00,11:10,Yael Pérez,CODEQUIM,Carpeta compartida,Solucionado,Presencial,Ismael Jiménez,Vaciar archivos de USB de trabajo a carpeta compartida en servidor
+TICKET-307,29/01/2025,12:00,13:00,Aaron Othokani,CODEQUIM,ZOOM,Solucionado,Whatsapp,León Hernández,Reunion para cotizacion Software SolidWorks
+TICKET-306,29/01/2025,17:00,17:15,Mauricio Ramirez,CODEQUIM,Laptop,Solucionado,Presencial,León Hernández,Forzar apagado y reinicio del equipo.
+TICKET-305,29/01/2025,15:03,15:08,Alma Salaís,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Cambio de cartucho de tóner
+TICKET-304,29/01/2025,13:05,13:20,Yessenia Palestina,KILLVEC,Correo,Solucionado,Presencial,Ismael Jiménez,Creación y configuración de correo personal codequim en equipo.
+TICKET-303,29/01/2025,13:00,13:05,Darian Valdéz,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Registro de usuario para escáner Xerox
+TICKET-302,29/01/2025,12:03,12:07,Leslye López,CODEQUIM,Software,Solucionado,Presencial,Ismael Jiménez,Inicio de sesion en aplicaciones de Microsoft
+TICKET-301,29/01/2025,11:40,11:45,Daniela Sanchez,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Se llena depósito de tinta negra.
+TICKET-300,29/01/2025,11:30,11:40,Daniela Rodríguez,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Configuración de impresora Epson en laptop.
+TICKET-299,29/01/2025,11:00,11:05,Henry Guillén,CODEQUIM,Baterías,Solucionado,Presencial,Ismael Jiménez,Cambio de baterías para teclado.
+TICKET-298,29/01/2025,10:30,10:45,Jaqueline Rodríguez,CODEQUIM,SAE,Solucionado,Presencial,León Hernández,Desbloqueo de documentos.
+TICKET-297,28/01/2025,16:00,16:30,Guadalupe Alcala,CODEQUIM,SAE,Solucionado,Presencial,León Hernández,Duda sobre ingresar numeros de serie posterior a la carga de inventario
+TICKET-296,28/01/2025,16:45,17:00,Daniela Sanchez,CODEQUIM,Documentos,Solucionado,Presencial,León Hernández,Se busca documento escaneado en laptop anterior.
+TICKET-295,28/01/2025,14:00,16:00,Yessenia Palestina,KILLVEC,Diseño,Solucionado,Presencial,León Hernández,Se solicita tarjetas de presentacion a Vianney de Quimix.
+TICKET-294,28/01/2025,12:30,12:40,Jaqueline Rodríguez,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,Apoyo para reinicio de proceso de administrador de archivos
+TICKET-293,27/01/2025,11:45,11:50,Henry Guillén,CODEQUIM,SAE,Solucionado,Presencial,Ismael Jiménez,Conexión de unidad DACASPEL
+TICKET-292,27/01/2025,11:20,11:30,Guillermo Córdova,CODEQUIM,Equipo,Solucionado,Presencial,Ismael Jiménez,Se coloca monitor en área de trabajo.
+TICKET-291,27/01/2025,16:30,17:00,Maripaz Corona,PAINTSHIELD,SAE,Solucionado,Whatsapp,León Hernández,Traspaso de existencias entre almacenes.
+TICKET-290,27/01/2025,11:00,12:00,Luis Rosas,PAINTSHIELD,Software,Solucionado,Whatsapp,León Hernández,Activar sistema ASPEL PROD.
+TICKET-289,27/01/2025,11:00,11:45,Daniela Sánchez,CODEQUIM,ZOOM,Solucionado,Presencial,León Hernández,Reunion con Gustavo para nueva Base de datos de CODEQUIM.
+TICKET-288,27/01/2025,10:55,11:00,León Hernández,CODEQUIM,Reunión,Solucionado,Presencial,Ismael Jiménez,Creación de sesión de zoom para sala de juntas
+TICKET-287,24/01/2025,12:40,12:45,Maripaz Corona,CODEQUIM,SAE,Solucionado,Whatsapp,León Hernández,Exportar remision a PDF.
+TICKET-286,24/01/2025,12:00,12:20,Aaron Othokani,CODEQUIM,Software,Solucionado,Whatsapp,León Hernández,Agendar reunion SolidWorks.
+TICKET-285,24/01/2025,10:05,10:10,Vania Ramirez,CODEQUIM,Documentos,Solucionado,Presencial,Ismael Jiménez,Apoyo en ajustar documento de excel para impresión
+TICKET-284,24/01/2025,10:00,10:30,Guadalupe Alcala,CODEQUIM,Computadora,Solucionado,Whatsapp,León Hernández,Instalar impresora de tinta epson.
+TICKET-283,23/01/2025,16:30,16:45,Vania Ramirez,CODEQUIM,Impresora,Solucionado,Presencial,León Hernández,Apoyo para imprimir.
+TICKET-282,23/01/2025,17:30,17:30,Jaqueline Rodríguez,CODEQUIM,Impresora,Solucionado,Presencial,León Hernández,Apoyo para imprimir identificacion.
+TICKET-281,23/01/2025,17:00,17:15,Mauricio Ramirez,CODEQUIM,Impresora,Solucionado,Presencial,León Hernández,Apoyo para imprimir.
+TICKET-280,23/01/2025,,,Jaqueline Rodríguez,CODEQUIM,,,,,
+TICKET-279,23/01/2025,13:00,14:00,Aaron Othokani,CODEQUIM,Software,Solucionado,Presencial,León Hernández,Reunion con especialista de Autodesk.
+TICKET-278,23/01/2025,10:45,10:50,Diego Durán,CODEQUIM,SAE,Solucionado,Presencial,Ismael Jiménez,Acceso a carpeta DACASPEL
+TICKET-277,22/01/2025,13:35,13:45,Daniel Ruiz,CODEQUIM,Documentos,Solucionado,Presencial,Ismael Jiménez,Cambio de firma en el correo personal y de equipo de trabajo (Guillermos)
+TICKET-276,22/01/2025,13:30,13:35,Rodrigo Ensastiga,CODEQUIM,Documentos,Solucionado,Presencial,Ismael Jiménez,Cambio de firma en el correo
+TICKET-275,22/01/2025,13:00,13:10,Daniel Ruiz,CODEQUIM,Documentos,Solucionado,Presencial,León Hernández,Actualizacion de firma de correo.
+TICKET-274,22/01/2025,12:30,12:45,Rodrigo Ensastiga,CODEQUIM,Documentos,Solucionado,Presencial,León Hernández,Actualizacion de firma de correo.
+TICKET-273,22/01/2025,12:15,12:30,Jesus Cordova,CODEQUIM,Documentos,Solucionado,Presencial,León Hernández,Actualizacion de firma de correo.
+TICKET-272,22/01/2025,12:00,12:15,Guillermo Fernández,CODEQUIM,Documentos,Solucionado,Presencial,León Hernández,Actualizacion de firma de correo.
+TICKET-271,22/01/2025,12:15,12:25,Viridiana Castillo,MEDICA DEL VALLE,Impresora,Solucionado,Jefe Directo,Ismael Jiménez,Configuración de usuario para escanear
+TICKET-270,22/01/2025,12:05,12:10,Brenda García,CODEQUIM,Documentos,Solucionado,Presencial,Ismael Jiménez,Apoyo para configurar parámetros de impresión de excel
+TICKET-269,22/01/2025,11:30,11:35,Vania Ramirez,CODEQUIM,Teléfono,Solucionado,Presencial,Ismael Jiménez,Regular el volumen de la bocina del conmutador
+TICKET-268,21/01/2025,11:00,11:15,Juan Antonio Mendoza,CODEQUIM,Documentos,Solucionado,Presencial,León Hernández,Envio de facturas de licenciamiebto microsoft 365.
+TICKET-267,21/01/2025,11:30,11:45,Usiel Silva,CODEQUIM,Smartphone,Solucionado,Presencial,León Hernández,Actualizar contraseña en telefono movil.
+TICKET-266,21/01/2025,12:15,12:25,Mariana Barrios,CODEQUIM,Firma,Solucionado,Whatsapp,Ismael Jiménez,Se cambia la firma del correo de Mariana y de Darian.
+TICKET-265,21/01/2025,11:30,11:35,Henry Guillén,CODEQUIM,Documentos,Solucionado,Presencial,Ismael Jiménez,Apoyo para ajustar la impresión de un comprobante de pago.
+TICKET-264,21/01/2025,11:05,11:15,Karina Ramirez,CODEQUIM,Documentos,Solucionado,Whatsapp,León Hernández,Envio de logos Killvec y exterplag.
+TICKET-263,20/01/2025,10:15,10:30,Maripaz Corona,PAINTSHIELD,Escritorio Remoto,Solucionado,Whatsapp,León Hernández,Revisar acceso remoto al servidor de SAE.
+TICKET-262,20/01/2025,16:10,16:20,Guadalupe Alcala,CODEQUIM,Computadora,Solucionado,Whatsapp,León Hernández,Revisar conexión de internet en su equipo de computo.
+TICKET-261,20/01/2025,19:00,19:30,Aaron Othokani,CODEQUIM,Software,Solucionado,Presencial,León Hernández,Confirmar sesion de Autocad para jueves.
+TICKET-260,20/01/2025,13:20,14:00,Usiel Silva,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,Configuración de equipo de préstamo mientras se da mantenimiento al anterior
+TICKET-259,20/01/2025,13:05,13:10,Leslye López,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Apoyo para borrar trabajo atascado en impresora Xerox
+TICKET-258,20/01/2025,12:00,13:00,Darian Valdéz,CODEQUIM,Equipo,Solucionado,Jefe Directo,Ismael Jiménez,Configuración de equipo celular y laptop para entrega a nuevo usuario.
+TICKET-257,20/01/2025,11:20,11:45,Daniel Ruiz,CODEQUIM,Equipo,Solucionado,Presencial,Ismael Jiménez,Apoyo en instalación de monitor con dock para nueva área de trabajo.
+TICKET-256,20/01/2025,10:25,-,Usiel Silva,CODEQUIM,Computadora,En proceso,Presencial,Ismael Jiménez,"La laptop no enciende, se revisa y se da mantenimiento para su correcto funcionamiento"
+TICKET-255,17/01/2025,13:15,13:30,Maripaz Corona,PAINTSHIELD,Outlook,Solucionado,Whatsapp,León Hernández,Crear correo personalizado y firma.
+TICKET-254,17/01/2025,13:00,13:15,Maripaz Corona,PAINTSHIELD,SAE,Solucionado,Whatsapp,León Hernández,Restablecer acceso remoto a SAE.
+TICKET-253,17/01/2025,12:00,12:25,Diego Durán,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,Apoyo para mover y reonectar cpu.
+TICKET-252,17/01/2025,11:00,11:20,Mariana Barrios,CODEQUIM,Outlook,Solucionado,Whatsapp,León Hernández,Editar firma de correo para Outlook.
+TICKET-251,16/01/2025,15:40,15:50,Diego Durán,CODEQUIM,PDF,Solucionado,Presencial,Ismael Jiménez,Se instala software ecopy para editar pdf
+TICKET-250,16/01/2025,15:35,15:40,Vania Ramirez,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Apoyo para quitar atasco de papel en impresora
+TICKET-249,16/01/2025,17:00,17:10,Guillermo Fernández,CODEQUIM,Impresora,Solucionado,Presencial,León Hernández,Apoyo para imprimir a dos caras.
+TICKET-248,16/01/2025,16:50,16:55,Daniela Sánchez,CODEQUIM,Whatsapp,Solucionado,Presencial,León Hernández,Revisar descargas de documentos en whatsapp.
+TICKET-247,16/01/2025,16:25,16:40,Henry Guillén,CODEQUIM,SAE,Solucionado,Presencial,León Hernández,Revisar mensaje al cargar en modulo de compras.
+TICKET-246,16/01/2025,12:00,12:20,Leonardo Lopez,CODEQUIM,Carpetas en red,Solucionado,Presencial,León Hernández,Revisar forma de trabajo colaborativa para equipo de calidad.
+TICKET-245,16/01/2025,13:30,14:00,Aaron Othokani,CODEQUIM,Software,Solucionado,Presencial,León Hernández,Contactar proveedor de Autocad para cotizacion de licencias.
+TICKET-244,16/01/2025,11:00,11:10,Gabriela Cruz,CODEQUIM,Computadora,Solucionado,Whatsapp,León Hernández,Conectar a wifi computadoras.
+TICKET-243,16/01/2025,10:45,11:00,Daniela Sánchez,CODEQUIM,Computadora,Solucionado,Presencial,León Hernández,Instalacion de navegador Brave.
+TICKET-242,15/01/2025,21:00,21:15,Diego Durán,CODEQUIM,SAE,Solucionado,Whatsapp,León Hernández,Conectar unidar de red Dacaspel.
+TICKET-241,15/01/2025,11:00,11:20,Yael Pérez,CODEQUIM,Microsoft 365,Solucionado,Presencial,León Hernández,Reseteo de contraseña de Microsoft 365.
+TICKET-240,15/01/2025,12:00,12:30,Guadalupe Alcala,CODEQUIM,Computadora,Solucionado,Whatsapp,León Hernández,Visualizar ventana emergente de pago en parcialidades en SAE.
+TICKET-239,15/01/2025,15:00,15:30,Andres Insectario,CODEQUIM,Impresora,Solucionado,Presencial,León Hernández,Habilitar escaneo en impresora Kyocera.
+TICKET-238,15/01/2025,12:15,12:30,Brenda García,CODEQUIM,Sala de juntas,Solucionado,Presencial,Ismael Jiménez,Apoyo para proyectar un video en sala de juntas
+TICKET-237,14/01/2025,12:20,12:25,Irasema Lucio,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Apoyo con trabajo trabado en impresora Xerox
+TICKET-236,14/01/2025,11:00,12:00,Viridiana Castillo,MEDICA DEL VALLE,Computadora,Solucionado,Jefe Directo,Ismael Jiménez,Configurar cuentas de correo y one drive en equipo de usuario.
+TICKET-235,14/01/2025,10:50,11:15,Alma Salaís,CODEQUIM,Ingreso de personal,Solucionado,Presencial,León Hernández,Dar de alta a colaborador en biometrico.
+TICKET-234,14/01/2025,10:15,10:30,Gabriela Cruz,QUIMIX,Computadora,Solucionado,Presencial,León Hernández,Conectar a pantalla de sala de juntas.
+TICKET-233,13/01/2025,17:45,17:52,Aaron Othokani,CODEQUIM,Correo,Solucionado,Presencial,León Hernández,Verificar cuenta de Google.
+TICKET-232,13/01/2025,16:00,16:20,Mariana Barrios,CODEQUIM,Internet,Solucionado,Whatsapp,León Hernández,Envio de factura del servicio de starlink.
+TICKET-231,13/01/2025,14:15,14:18,Karla Banda,PAINTSHIELD,SAE,Solucionado,Presencial,Ismael Jiménez,Conectar unidad DACASPEL.
+TICKET-230,13/01/2025,14:00,14:10,Rodrigo Morales,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,Se reestablece contraseña para acceso al equipo.
+TICKET-229,13/01/2025,13:45,13:50,Guillermo Fernández,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Apoyo para editar e imprimir documento
+TICKET-228,13/01/2025,13:55,14:00,Cristina Ramírez,EXTERPLAG,Correo,Solucionado,Whatsapp,León Hernández,Revisar correo SPAM.
+TICKET-227,13/01/2025,11:00,11:20,Daniela Sánchez,CODEQUIM,Computadora,Solucionado,Presencial,León Hernández,Cambiar IP en escritorio remoto de su equipo nuevo.
+TICKET-226,13/01/2025,13:00,13:05,Gabriela Vázquez,MEDICA DEL VALLE,Impresora,Solucionado,Presencial,León Hernández,Sacar copia de INE en una sola hoja.
+TICKET-225,13/01/2025,10:15,10:30,Daniela Sánchez,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,Cambio de equipo y configuración con impresora Epson
+TICKET-224,13/01/2025,10:35,10:45,Rodrigo Ensastiga,CODEQUIM,Sala de juntas,Solucionado,Presencial,Ismael Jiménez,Configuración de pantalla nueva en sala de juntas
+TICKET-223,10/01/2025,10:30,10:35,Melanie Rangel,CODEQUIM,Internet,Solucionado,Presencial,Ismael Jiménez,Configuración de Wi-Fi en equipo
+TICKET-222,09/01/2025,16:45,16:55,Gabriela Vázquez,MEDICA DEL VALLE,Impresora,Solucionado,Presencial,León Hernández,Colocar toner Magenta a Kyocera.
+TICKET-221,09/01/2025,10:30,10:45,Leonardo,QUIMIX,Internet,Solucionado,Presencial,Ismael Jiménez,Configuración de Wi-Fi en equipo
+TICKET-220,08/01/2025,11:00,11:20,Guadalupe Alcala,CODEQUIM,Computadora,Solucionado,Whatsapp,León Hernández,Encender equipo computadora de oficina.
+TICKET-219,08/01/2025,14:00,16:00,Gabriela Cruz,CODEQUIM,ASPEL,Solucionado,Whatsapp,León Hernández,Renovar y activar por un mes el sistema ASPEL FACTURE.
+TICKET-218,06/01/2025,12:50,13:05,Rodrigo Morales,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,Configuración de impresora y Wi-Fi en equipo
+TICKET-217,06/01/2025,12:20,12:25,Eli Suasted,CODEQUIM,Celular,Solucionado,Jefe Directo,Ismael Jiménez,Configuración de conexión Wi-Fi 
+TICKET-216,06/01/2025,11:30,11:35,Eli Suasted,CODEQUIM,Impresora,Solucionado,Jefe Directo,Ismael Jiménez,Se hace registro de usuario para escanear en Xerox
+TICKET-215,02/01/2025,12:00,13:00,Guillermo Fernández,CODEQUIM,Correo,Solucionado,Whatsapp,León Hernández,Me reporta falla en la salida de correo.
+TICKET-214,31/12/2024,19:00,19:30,Antonio López,CODEQUIM,SAE,Solucionado,Whatsapp,León Hernández,Agregar servicio de facturacion para emitir factura de anticipo.
+TICKET-213,31/12/2024,11:55,12:02,Brenda García,CODEQUIM,Computadora,Solucionado,Sistemas,Ismael Jiménez,Configurar acceso remoto a equipo de cómputo
+TICKET-212,31/12/2024,11:10,11:17,Diego Durán,CODEQUIM,Computadora,Solucionado,Sistemas,Ismael Jiménez,Configurar equipo de computo para acceso remoto
+TICKET-211,31/12/2024,11:30,11:45,Guadalupe Alcala,CODEQUIM,Computadora,Solucionado,Presencial,León Hernández,Dar acceso remoto a eq. computo en oficina.
+TICKET-210,31/12/2024,10:45,11:00,Daniela Sánchez,CODEQUIM,Computadora,Solucionado,Presencial,León Hernández,Dar acceso remoto a laptop en oficina.
+TICKET-209,30/12/2024,16:00,16:30,Daniela Sánchez,CODEQUIM,SAE,Solucionado,Presencial,León Hernández,Agregar existencia al inventario.
+TICKET-208,30/12/2024,13:00,13:30,Guillermo Fernández,CODEQUIM,SAE,Solucionado,Presencial,León Hernández,Agregar carpeta DACASPEL
+TICKET-207,26/12/2024,16:00,16:30,Daniela Sánchez,CODEQUIM,Compra,Solucionado,Sistemas,León Hernández,Cotizar y realizar pedido al mejor precio en Abasteo de 20 impresoras.
+TICKET-206,26/12/2024,12:30,14:00,Daniela Sánchez,CODEQUIM,Computadora,Solucionado,Sistemas,Ismael Jiménez,Configurar equipo nuevo para cambio.
+TICKET-205,26/12/2024,12:30,14:00,Ana Enríquez,CODEQUIM,Computadora,Solucionado,Sistemas,Ismael Jiménez,Configurar equipo nuevo para cambio.
+TICKET-204,26/12/2024,12:00,12:10,Brenda García,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Configuración de la impresora para impresión en hoja tamaño oficio.
+TICKET-203,26/12/2024,11:00,11:07,Guillermo Fernández,CODEQUIM,Edicion PDF,Solucionado,Presencial,Ismael Jiménez,Apoyo para unir 2 documentos pdf y comprimir de tamaño.
+TICKET-202,24/12/2024,11:30,12:00,Diego Durán,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,Configurar escritorio remoto en mac personal.
+TICKET-201,24/12/2024,11:00,12:00,Diego Durán,CODEQUIM,Computadora,Solucionado,Presencial,León Hernández,Dar acceso remoto en Fortinet.
+TICKET-200,24/12/2024,13:00,14:00,Daniela Sánchez,CODEQUIM,SAE,Solucionado,Presencial,León Hernández,"Crear multialmacen en SAE, para realizar traspasos."
+TICKET-199,23/12/2024,12:30,14:10,Daniela Sánchez,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,Preparación de equipo nuevo para migración.
+TICKET-198,23/12/2024,13:00,13:15,Daniela Sánchez,CODEQUIM,Facturas,Solucionado,Presencial,León Hernández,Revision de facturas de Cyberpuerta
+TICKET-197,23/12/2024,12:00,12:00,Brenda García,CODEQUIM,USB,Solucionado,Presencial,León Hernández,Proporcionar memoria USB
+TICKET-196,23/12/2024,11:00,11:15,Cristina Ramírez,EXTERPLAG,SAE,Solucionado,Presencial,León Hernández,Conectar unidad DACASPEL en laptop
+TICKET-195,23/12/2024,10:35,10:40,Henry Guillén,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Se realiza cambio de tóner cian a impresora kyocera y se realiza prueba de impresión.
+TICKET-194,20/12/2024,12:40,14:00,Yael Pérez,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,Se prepara computadora de préstamo con cuentas de correo para Yael.
+TICKET-193,20/12/2024,14:00,14:10,Ana Enríquez,CODEQUIM,Logo,Solucionado,Presencial,León Hernández,Proporcionar logo de killvec.
+TICKET-192,20/12/2024,12:30,13:00,Yessenia Palestina,CODEQUIM,Microsoft,Solucionado,Presencial,León Hernández,Proporcionar credenciales de Microsdof 365.
+TICKET-191,20/12/2024,12:00,12:15,Guillermo Fernández,CODEQUIM,SAE,Solucionado,Presencial,León Hernández,Agregar unidad DACASPEL.
+TICKET-190,20/12/2024,13:00,13:30,Antonio López,CODEQUIM,Facturas,Solucionado,Presencial,León Hernández,Revisar con que programa se alizan facturas de dividendos.
+TICKET-189,19/12/2024,11:35,11:40,Daniela Rodríguez,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,"Presenta fallas con el cargador de la compu, se asigna otro y se revisa puerto de conexión."
+TICKET-188,19/12/2024,11:25,12:40,Yessenia Palestina,CODEQUIM,Celular,Solucionado,Presencial,Ismael Jiménez,Se realiza cambio de equipo celular.
+TICKET-187,19/12/2024,10:45,10:50,Antonio López,CODEQUIM,Correo,Solucionado,Presencial,Ismael Jiménez,"Revisión de correo sospechoso, se marca remitente como spam."
+TICKET-186,19/12/2024,10:15,10:25,Guillermo Fernández,CODEQUIM,Internet,Solucionado,Presencial,Ismael Jiménez,Se revisa configuración de internet porque la red Cygnus no da servicio.
+TICKET-185,18/12/2024,16:00,16:15,Javier Azuara,CODEQUIM,Zoom,Solucionado,Whatsapp,León Hernández,Crear liga de zoom
+TICKET-184,18/12/2024,12:00,12:30,Mariana Barrios,CODEQUIM,Google,Solucionado,Presencial,León Hernández,Iniciar sesion con cuenta de ventas de Gmail.
+TICKET-183,18/12/2024,11:00,11:15,Daniela Rodríguez,CODEQUIM,SAE,Solucionado,Presencial,León Hernández,Conectar unidad DACASPEL
+TICKET-182,17/12/2024,11:45,12:00,Daniela Sánchez,CODEQUIM,Facturas,Solucionado,Whatsapp,León Hernández,Envio de facturas de pagos.
+TICKET-181,17/12/2024,11:30,11:45,Daniela Rodríguez,CODEQUIM,SAE,Solucionado,Presencial,León Hernández,Conectar unidad DACASPEL.
+TICKET-180,17/12/2024,10:30,11:00,Diego Durán,CODEQUIM,Navegador,Solucionado,Presencial,León Hernández,Abrir pagina del SAT con internet explorer.
+TICKET-179,16/12/2024,11:00,17:00,Daniela Sánchez,CODEQUIM,Correo,Solucionado,Whatsapp,León Hernández,Reportar falla del servidor de correos de codequim
+TICKET-178,16/12/2024,13:00,13:05,Daniela Sánchez,CODEQUIM,Correo,Solucionado,Whatsapp,Ismael Jiménez,Se configura cuenta de correo de google temporalmente
+TICKET-177,16/12/2024,12:30,12:35,Karla Banda,PAINTSHIELD,SAE,Solucionado,Presencial,Ismael Jiménez,Se da acceso a la carpeta compartida DACASPEL
+TICKET-176,13/12/2024,13:00,14:00,Aaron Othokani,CODEQUIM,Google,Solucionado,Whatsapp,León Hernández,Ingresar a cuenta Google desde otro dispositivo.
+TICKET-175,13/12/2024,10:00,10:30,Alma Salaís,CODEQUIM,Outlook,Solucionado,Presencial,León Hernández,Crear firma de correo asistente contable.
+TICKET-174,13/12/2024,11:00,12:00,Guadalupe Alcala,CODEQUIM,SAE,Solucionado,Presencial,León Hernández,Crear correos de diferentes empresas.
+TICKET-173,12/12/2024,12:50,12:52,Vania Ramirez,CODEQUIM,Mouse,Solucionado,Presencial,Ismael Jiménez,Se asigna mouse con mousepad.
+TICKET-172,12/12/2024,12:12,13:00,Yessenia Palestina,CODEQUIM,Computadora,Solucionado,Jefe Directo,Ismael Jiménez,Se realiza migración de información de killvec al equipo de Yesenia.
+TICKET-171,11/12/2024,13:02,13:05,Mariana Barrios,CODEQUIM,Internet,Solucionado,Presencial,Ismael Jiménez,Problemas con conexión de red. Se revisa la configuración y se valida el funcionamiento de la red.
+TICKET-170,11/12/2024,11:25,11:27,Cristina Ramírez,EXTERPLAG,Outlook,Solucionado,Presencial,Ismael Jiménez,Solicita apoyo para abrir outlook. Se termina proceso en administrador de tareas y se valida el funcionamiento de la aplicación.
+TICKET-169,11/12/2024,11:10,11:25,Diego Durán,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,Se coloca monitor adicional en lugar de trabajo y se configura para su funcionamiento.
+TICKET-168,11/12/2024,10:45,11:00,Alma Salaís,CODEQUIM,Impresora,Solucionado,Presencial,León Hernández,Solicitar suministro de toner.
+TICKET-167,11/12/2024,10:00,10:02,Diego Durán,CODEQUIM,SAE,Solucionado,Presencial,Ismael Jiménez,Se da acceso a carpeta DACASPEL.
+TICKET-166,10/12/2024,17:00,17:20,Daniela Sánchez,CODEQUIM,Laptop,Solucionado,Presencial,León Hernández,Dar ascceso remoto mediante anydesk.
+TICKET-165,10/12/2024,13:37,13:40,Cristina Ramírez,EXTERPLAG,Mouse,Solucionado,Presencial,Ismael Jiménez,Cambio de mouse.
+TICKET-164,10/12/2024,10:40,10:42,Usiel Silva,CODEQUIM,Outlook,Solucionado,Presencial,Ismael Jiménez,Atasco en la app de correo. Se finaliza el proceso y se realiza la prueba.
+TICKET-163,10/12/2024,10:30,10:35,Vania Ramirez,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Se configura impresora XEROX y se hace prueba de impresión de la misma.
+TICKET-162,10/12/2024,10:20,10:25,Diego Durán,CODEQUIM,SAE,Solucionado,Presencial,Ismael Jiménez,Se da acceso a carpeta DACASPEL.
+TICKET-161,09/12/2024,13:00,13:10,Guillermo Fernández,CODEQUIM,Edicion PDF,Solucionado,Presencial,Ismael Jiménez,Edición de documento para añadir la fima digital.
+TICKET-160,09/12/2024,13:35,14:00,Vania Ramirez,CODEQUIM,Celular,Solucionado,Presencial,Ismael Jiménez,Renovación de equipo celular.
+TICKET-159,09/12/2024,11:00,12:30,Diego Durán,CODEQUIM,Computadora,Solucionado,Jefe Directo,Ismael Jiménez,Se realiza instalación y configuración de equipo para el nuevo becario.
+TICKET-158,09/12/2024,12:25,12:30,Juan Antonio Mendoza,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,SE revisa configuración de impresora xerox y se realiza la prueba correspondiente
+TICKET-157,09/12/2024,12:40,12:43,Henry Guillén,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,"Se revisa configuración de impresora Xerox, se termina el trabajo atorado."
+TICKET-156,09/12/2024,12:30,13:15,Alma Salaís,CODEQUIM,Celular,Solucionado,Presencial,León Hernández,Resetear cuenta RH de google en celular.
+TICKET-155,09/12/2024,11:00,11:15,Guadalupe Alcala,CODEQUIM,SAE,Solucionado,Whatsapp,León Hernández,Crestablecer contraseña asistente contable en SAE y COI.
+TICKET-154,06/12/2024,12:00,12:15,Guadalupe Alcala,CODEQUIM,SAE,Solucionado,Presencial,León Hernández,Duda sobre reporte de SAE.
+TICKET-153,05/12/2024,16:00,16:15,Ana Enríquez,CODEQUIM,Site,Solucionado,Whatsapp,León Hernández,Proporcionar conexión electrica en site.
+TICKET-152,05/12/2024,16:30,16:45,Henry Guillén,CODEQUIM,SAE,Solucionado,Presencial,León Hernández,Conectar unidad DACASPEL.
+TICKET-151,05/12/2024,12:30,12:45,Leslye López,CODEQUIM,Laptop,Solucionado,Presencial,León Hernández,Programar reunion zoom.
+TICKET-150,05/12/2024,12:15,12:30,Daniela Sánchez,CODEQUIM,Laptop,Solucionado,Presencial,León Hernández,Colocacion de contraseñas en cuentas de correo.
+TICKET-149,05/12/2024,11:45,12:15,Daniela Sánchez,CODEQUIM,Laptop,Solucionado,Whatsapp,León Hernández,Restablecimeinto de contraseña.
+TICKET-148,05/12/2024,12:00,12:15,Leslye López,CODEQUIM,Laptop,Solucionado,Presencial,León Hernández,Configurar orientacion de pantalla.
+TICKET-147,04/12/2024,17:00,17:45,Alma Salaís,CODEQUIM,Celular,Solucionado,Presencial,León Hernández,Actualizar whatsapp.
+TICKET-146,04/12/2024,11:00,12:00,Melanie Rangel,CODEQUIM,SAE,Solucionado,Presencial,León Hernández,Colocar num. Identificador a remision en SAE.
+TICKET-145,03/12/2024,14:00,14:10,Daniela Sánchez,CODEQUIM,Tarjeta,Solucionado,Presencial,León Hernández,Envio de archivo PDF con tarjeta de presentacion.
+TICKET-144,03/12/2024,10:25,10:30,Eduardo Gómez,CODEQUIM,Internet,Solucionado,Presencial,León Hernández,Volver a conectar a red WIFI.
+TICKET-143,02/12/2024,03:30,03:45,Guillermo Fernández,CODEQUIM,Excel,Solucionado,Presencial,León Hernández,Guardar excel en la nube.
+TICKET-142,02/12/2024,12:20,12:50,Ana Enríquez,CODEQUIM,Nueva Oficina,Solucionado,Presencial,León Hernández,Revisar con el Arquitecto instalacion de Aire y pantallas de la nueva oficina.
+TICKET-141,02/12/2024,12:00,12:20,Antonio López,CODEQUIM,AdminXML,Solucionado,Presencial,León Hernández,Se realiza renovacion de software Admin XML.
+TICKET-140,02/12/2024,11:10,11:20,Juan Antonio Mendoza,CODEQUIM,SAE,Solucionado,Presencial,León Hernández,Liberar licencias para acceso a SAE.
+TICKET-139,02/12/2024,10:10,10:15,Brenda García,CODEQUIM,Acceso Equipo,Solucionado,Presencial,León Hernández,Se selecciona a perfil correcto del equipo de computo.
+TICKET-138,02/12/2024,11:35,11:37,Usiel Silva,CODEQUIM,Mouse,Solucionado,Presencial,Ismael Jiménez,Se realiza cambio de mouse.
+TICKET-137,29/11/2024,13:30,14:00,Antonio López,CODEQUIM,SAE,Solucionado,Sistemas,Ismael Jiménez,Edición de reporte en SAE. Se añade leyenda al documento PDF.
+TICKET-136,26/11/2024,11:30,11:40,Guillermo Fernández,CODEQUIM,Monitor,Solucionado,Jefe Directo,Ismael Jiménez,Se configura monitor con teclado y mouse en su lugar de trabajo.
+TICKET-135,26/11/2024,10:50,10:54,Guillermo Fernández,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Problema de atasco de papel en impresora Xerox. Se retira la hoja y se valida el funcionamiento de la misma.
+TICKET-134,25/11/2024,11:54,11:57,Yessenia Palestina,CODEQUIM,Mouse,Solucionado,Presencial,Ismael Jiménez,Se realiza cambio de mouse.
+TICKET-133,25/11/2024,11:15,11:20,Guillermo Fernández,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Problemas con impresora Xerox. Se cambia el cartucho de tóner y se realiza prueba de impresión
+TICKET-132,25/11/2024,10:50,10:52,Daniela Rodríguez,CODEQUIM,Internet,Solucionado,Presencial,Ismael Jiménez,Reporta que no tiene conexión a internet por ETH. Se revisa configuración y se cambia IP del equipo.
+TICKET-131,25/11/2024,10:45,10:50,Yael Pérez,CODEQUIM,Internet,Solucionado,Presencial,Ismael Jiménez,Reporta que no tiene conexión a internet por ETH. Se revisa configuración y se cambia IP del equipo.
+TICKET-130,25/11/2024,10:30,10:45,Henry Guillén,CODEQUIM,Internet,Solucionado,Presencial,León Hernández,Dar acceso a internet a personal de Quimix
+TICKET-129,20/11/2024,12:00,12:15,Mariana Barrios,CODEQUIM,Toner,Solucionado,Presencial,León Hernández,"Revisar con Karina de Almacen, stock de toner."
+TICKET-128,20/11/2024,11:00,11:20,Alma Salaís,CODEQUIM,Firma,Solucionado,Presencial,León Hernández,Editar firma de recepcion para nuevo ingreso Vania Ramirez
+TICKET-127,19/11/2024,13:00,13:15,Daniela Sánchez,CODEQUIM,Excel,Pendiente,Whatsapp,Ismael Jiménez,Solicita ayuda para encadenar la información entre 2 archivos. Se realiza fórmula de prueba para ver si es funcional. 
+TICKET-126,19/11/2024,10:30,10:40,Vania Ramirez,CODEQUIM,Huella dactilar,Solucionado,Sistemas,Ismael Jiménez,Se registra huella dactilar en el sistema de entrada.
+TICKET-125,15/11/2024,11:00,11:30,Gabriela Vázquez,MEDICA DEL VALLE,SAE,Solucionado,Whatsapp,León Hernández,Dar acceso remoto al SAE 
+TICKET-124,14/11/2024,11:30,12:40,Brenda García,CODEQUIM,Lomos carpetas,Solucionado,Presencial,Ismael Jiménez,Se realizan nuevos diseños para los lomos y portadas de carpetas de archivos (killvec y exterplag)
+TICKET-123,14/11/2024,12:20,12:30,Henry Guillén,CODEQUIM,Carpeta compartida,Solucionado,Presencial,Ismael Jiménez,Se configura contraseña de la cuenta de microsoft para dar acceso al documento compartido.
+TICKET-122,13/11/2024,12:30,12:32,Daniela Sánchez,CODEQUIM,Baterías,Solucionado,Presencial,Ismael Jiménez,Se realiza cambio de batería para el mouse.
+TICKET-121,13/11/2024,11:15,11:20,Juan Antonio Mendoza,CODEQUIM,SAE,Solucionado,Presencial,Ismael Jiménez,Se realiza configuración de la carpeta compartida DACASPEL
+TICKET-120,13/11/2024,11:12,11:15,Henry Guillén,CODEQUIM,SAE,Solucionado,Presencial,Ismael Jiménez,Se realiza configuración de la carpeta compartida DACASPEL
+TICKET-119,12/11/2024,11:55,12:00,Usiel Silva,CODEQUIM,Correo,Solucionado,Presencial,Ismael Jiménez,Solicita apoyo para abrir el correo. Se termina proceso en administrador de tareas y se valida el funcionamiento de la aplicación.
+TICKET-118,12/11/2024,11:00,12:00,Daniela Rodríguez,CODEQUIM,Celular,Solucionado,Presencial,Ismael Jiménez,Se realiza cambio de equipo celular.
+TICKET-117,12/11/2024,12:00,12:15,Daniela Rodríguez,CODEQUIM,SAE,Solucionado,Presencial,León Hernández,Se realiza configuración de la carpeta compartida DACASPEL
+TICKET-116,12/11/2024,11:40,11:55,Gabriela Vázquez,MEDICA DEL VALLE,SAE,Solucionado,Presencial,León Hernández,Se realiza configuración de la carpeta compartida DACASPEL
+TICKET-115,11/11/2024,12:30,13:10,Karla Banda,PAINTSHIELD,Celular,Solucionado,Sistemas,Ismael Jiménez,Se realiza cambio de equipo celular.
+TICKET-114,11/11/2024,12:00,12:20,Guadalupe Alcala,CODEQUIM,PDF,Solucionado,Whatsapp,León Hernández,Se le instalo programa PDFGEAR para editar texto en PDF.
+TICKET-113,08/11/2024,12:55,13:10,Alma Salaís,CODEQUIM,No Break,Solucionado,Presencial,Ismael Jiménez,Se instala nuevo no break en zona de trabajo. Se realiza la prueba correspondiente de funcionamiento.
+TICKET-112,08/11/2024,12:40,12:50,Giovana Huitrón,MEDICA DEL VALLE,Impresora,Solucionado,Presencial,Ismael Jiménez,Se realiza laconfiguracón de impresora Xerox en el equipo.
+TICKET-111,08/11/2024,11:35,11:45,Noemí Aparicio,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Se realiza laconfiguracón de impresora Xerox en el equipo.
+TICKET-110,07/11/2024,13:00,13:20,Yessenia Palestina,CODEQUIM,SAE,Solucionado,Presencial,León Hernández,Se desbloqueo documento en SAE.
+TICKET-109,07/11/2024,12:00,12:05,Brenda Flores,KILLVEC,computadora,Solucionado,Presencial,Ismael Jiménez,Se realiza limpieza superficial con aire comprimido y limpiador.
+TICKET-108,07/11/2024,11:45,11:52,Yessenia Palestina,CODEQUIM,SAE,Solucionado,Presencial,Ismael Jiménez,Se realiza configuración de la carpeta compartida DACASPEL
+TICKET-107,07/11/2024,13:25,10:30,Henry Guillén,CODEQUIM,Teclado,Solucionado,Presencial,Ismael Jiménez,Se realiza cambio de mouse y teclado por equipo nuevo.
+TICKET-106,06/11/2024,13:30,13:45,Brenda García,CODEQUIM,Excel,Solucionado,Presencial,León Hernández,Se quita proteccion por contraseña en archivo excel.
+TICKET-105,06/11/2024,10:35,10:40,Yessenia Palestina,CODEQUIM,Internet,Solucionado,Presencial,Ismael Jiménez,Fallo en la conexión de internet con las redes externas. Se valida configuración de IP y se hace la prueba con la red compartida del celular.
+TICKET-104,06/11/2024,10:25,10:32,Jaqueline Rodríguez,CODEQUIM,Huella dactilar,Solucionado,Presencial,Ismael Jiménez,Solicita registro de nueva huella en el reloj checador
+TICKET-103,05/11/2024,11:05,11:08,Javier Azuara,CODEQUIM,Internet,Solucionado,Presencial,Ismael Jiménez,Solicita contraseña de internet para computadora y smartwatch.
+TICKET-102,04/11/2024,12:35,13:35,Sistemas,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,Se va a recoger equipo por garantía a Cda. Tajín 93
+TICKET-101,04/11/2024,12:21,12:22,Christian Betancourt,CODEQUIM,Internet,Solucionado,Presencial,Ismael Jiménez,Se realiza configuración de red wi-fi en teléfono.
+TICKET-100,04/11/2024,10:42,10:50,Daniela Rodríguez,CODEQUIM,SAE,Solucionado,Presencial,Ismael Jiménez,Se realiza configuración de acceso a la carpeta DACASPEL para poder usar el servicio.
+TICKET-99,04/11/2024,10:40,10:42,Usiel Silva,CODEQUIM,Mouse,Solucionado,Presencial,Ismael Jiménez,"Solicita cambio de mouse, ya que el receptor dejó de funcionar."
+TICKET-98,04/11/2024,10:25,10:28,Alma Salaís,CODEQUIM,Correo,Solucionado,Presencial,Ismael Jiménez,Solicita apoyo para abrir outlook. Se termina proceso en administrador de tareas y se valida el funcionamiento de la aplicación.
+TICKET-97,01/11/2024,13:45,13:48,Guillermo Fernández,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Apoyo para configurar escáner por ambos lados en kyocera. Se da de alta en el portal de kyocera.
+TICKET-96,01/11/2024,12:31,12:47,Brenda Flores,KILLVEC,Escritorio Remoto,Solucionado,Whatsapp,Ismael Jiménez,Presenta problema de conexción con el escritorio remoto. Se revisan las credenciales y se valida que pueda establecer conexión.
+TICKET-95,01/11/2024,11:15,11:25,Alma Salaís,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Presenta problemas para imprimir. Se valida conexión de la impresora y se hace la prueba correspondiente.
+TICKET-94,31/10/2024,12:35,12:38,Leslye López,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,"Problemas de conectividad con Wi-Fi, se presenta constantemente, se escala para análisis."
+TICKET-93,31/10/2024,10:56,11:00,Noemí Aparicio,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Apoyo pára imprimir en hojas tamaño oficio en impresora kyocera.
+TICKET-92,31/10/2024,10:56,11:00,Noemí Aparicio,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,"Se hace reinicio forzado del equipo y se le da mantenimiento al disco duro, se eliminan archivos basura del sistema."
+TICKET-91,29/10/2024,12:00,12:10,Brenda García,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,Reporta que la computadora de recepción se queda en pantalla azul
+TICKET-90,29/10/2024,11:46,-,Daniel Ruiz,CODEQUIM,Celular,Solucionado,Presencial,Ismael Jiménez,Cambio de celular android a iphone. Se inicia el proceso de traspaso de la información.
+TICKET-89,29/10/2024,11:10,11:25,Noemí Aparicio,CODEQUIM,Correo,Solucionado,Presencial,Ismael Jiménez,Requiere consultar el correo de un superior de Medica Valle. Se ingresa por web mail y se reenvia el correo correspondiente.
+TICKET-88,29/10/2024,10:00,10:30,Alma Salaís,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Error en escaner de kyocera. Se revisa configuración de servicio y se realiza la prueba correspondiente.
+TICKET-87,28/10/2024,12:30,12:40,Daniela Rodríguez,CODEQUIM,Carpeta compartida,Solucionado,Presencial,Ismael Jiménez,Se realiza configuración de carpeta compartida por cambio de contraseña en el servidor.
+TICKET-86,28/10/2024,12:17,12:20,Giovana Huitrón,MEDICA DEL VALLE,Mouse,Solucionado,Presencial,Ismael Jiménez,Se realiza cambio de batería para el mouse.
+TICKET-85,28/10/2024,10:45,10:50,Alma Salaís,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,"Se realiza cambio de tóner a la impresora, y se valida con prueba de impresión."
+TICKET-84,28/10/2024,10:10,10:20,León Hernández,CODEQUIM,Sala de juntas,Solucionado,Presencial,Ismael Jiménez,Se programa reunión de zoom para capacitación y se hace la grabación correspondiente.
+TICKET-83,25/10/2024,11:30,12:15,Brenda García,CODEQUIM,Correo,Solucionado,Presencial,Ismael Jiménez,Se realiza filtro de correos archivados. Se reacomodan correos y se hace prueba de búsqueda.
+TICKET-82,25/10/2024,10:00,10:30,León Hernández,CODEQUIM,Sala de juntas,Solucionado,Presencial,Ismael Jiménez,Se programa reunión de zoom para capacitación y se hace la grabación correspondiente.
+TICKET-81,24/10/2024,13:10,13:20,Karla Banda,PAINTSHIELD,Internet,Solucionado,Presencial,Ismael Jiménez,Reporta problemas de conectividad con su equipo. Se revisa y se adapta un dock para que tenga internet alámbrico. Pendiente de revisar qué le da problemas al Wi-Fi.
+TICKET-80,24/10/2024,12:20,12:50,Giovana Huitrón,MEDICA DEL VALLE,Computadora,Solucionado,Presencial,Ismael Jiménez,Solicita apoyo con el soporte técnico de un equipo. Se toma la llamada y se da seguimiento a equipo.
+TICKET-79,24/10/2024,11:00,11:20,Brenda García,CODEQUIM,Correo,Solucionado,Presencial,Ismael Jiménez,Se revisa outlook porque mueve automáticamente los correos al archivo. Se valida configuración para restaurar los correos a su capeta original.
+TICKET-78,23/10/2024,12:30,12:35,Daniela Rodríguez,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Se configura impresora kyocera en laptop.
+TICKET-77,23/10/2024,12:00,12:40,Daniela Sánchez,CODEQUIM,Carpeta compartida,Solucionado,Presencial,Ismael Jiménez,Se revisa configuración de red y se reestablece el acceso a carpetas compartidas.
+TICKET-76,22/10/2024,12:10,12:20,Giovana Huitrón,MEDICA DEL VALLE,Correo,Solucionado,Presencial,Ismael Jiménez,Se revisa configuración para que los correos salgan con el nombre correcto. Se corrige nombre en la firma.
+TICKET-75,22/10/2024,11:20,11:30,León Hernández,CODEQUIM,Huella dactilar,Solucionado,Presencial,Ismael Jiménez,Se realiza alta de huella dactilar en el aplicativo.
+TICKET-74,22/10/2024,11:00,11:05,Karla Banda,PAINTSHIELD,Computadora,Solucionado,Presencial,Ismael Jiménez,Solicita mouse para computadora.
+TICKET-73,21/10/2024,12:30,12:37,Leslye López,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,Apoyo con conexión Wi-Fi de equipo. Se reconfigura perfil de LYNX y se realiza prueba de la conexión.
+TICKET-72,21/10/2024,10:35,10:40,Juan Antonio Mendoza,CODEQUIM,Computadora,Solucionado,Jefe Directo,Ismael Jiménez,Solicita contraseña de máquina para Juan.
+TICKET-71,17/10/2024,11:30,13:00,Rodrigo Ensastiga,CODEQUIM,Correo,Solucionado,Presencial,Ismael Jiménez,"Se revisa configuración de correos en la coputadora. Se reestablece el perfil de correos por un archivo ""dañado""."
+TICKET-70,17/10/2024,11:30,13:00,Rodrigo Ensastiga,CODEQUIM,Internet,Solucionado,Presencial,Ismael Jiménez,Se realiza configuración de red wi-fi en teléfono y computadora.
+TICKET-69,17/10/2024,11:20,11:35,Alma Salaís,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,Solicita apoyo porque la computadora no prende. Se revisan conexiones. El no-break se fundió.
+TICKET-68,17/10/2024,10:40,10:46,Jaqueline Rodríguez,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,"Solicita apoyo con el monitor, pues al cerrar la computadora no puede seguir visualizando su actividad. Se cambia la configuración de suspensión."
+TICKET-67,16/10/2024,12:00,12:10,Irasema Lucio,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,Se asigna mouse y teclado nuevos.
+TICKET-66,16/10/2024,10:42,10:50,Irasema Lucio,CODEQUIM,Sala de juntas,Solucionado,Presencial,Ismael Jiménez,Se realiza conexión de equipo para proyectar pantalla.
+TICKET-65,16/10/2024,10:35,10:45,Alma Salaís,CODEQUIM,Impresora,Solucionado,Whatsapp,Ismael Jiménez,Se configura impresora con la red wifi y se realiza prueba de impresión correspondiente.
+TICKET-64,16/10/2024,10:20,12:25,Giovana Huitrón,MEDICA DEL VALLE,Internet,Solucionado,Presencial,Ismael Jiménez,Se realiza configuración de la nueva red wi fi en el equipo.
+TICKET-63,15/10/2024,13:50,13:55,Luis Jardón,MEDICA DEL VALLE,Internet,Solucionado,Presencial,Ismael Jiménez,Solicita configuración de internet para computadora y equipo.
+TICKET-62,14/10/2024,11:00,11:30,Guillermo Fernández,CODEQUIM,Celular,Solucionado,Jefe Directo,Ismael Jiménez,Reconfiguración de celular en miradore para un nuevo usuario.
+TICKET-61,14/10/2024,11:00,13:30,Guillermo Fernández,CODEQUIM,Computadora,Solucionado,Sistemas,Ismael Jiménez,Se realiza respaldo de computadora
+TICKET-60,14/10/2024,12:00,12:10,Mariana Barrios,CODEQUIM,Celular,Solucionado,Presencial,Ismael Jiménez,Se hace un reinicio de fábrica para celular bloqueado con PIN desconocido.
+TICKET-59,09/10/2024,11:50,11:55,Mariana Barrios,CODEQUIM,Limpieza,Solucionado,Presencial,Ismael Jiménez,Solicita alcohol isopropílico para una limpieza de equipo.
+TICKET-58,09/10/2024,10:30,11:30,Brenda García,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,Se realiza instalación de office en computadora de RH para curso.
+TICKET-57,08/10/2024,10:10,11:20,Guillermo Fernández,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,Se revisa equipo porque no inicia sesión. Se hace un respaldo y se configura nuevamente el software.
+TICKET-56,07/10/2024,12:30,12:35,Mariana Barrios,CODEQUIM,Sala de juntas,Solucionado,Presencial,Ismael Jiménez,Solicita extension para conectar las computadoras de la sala de juntas
+TICKET-55,03/10/2024,11:30,11:35,Leslye López,CODEQUIM,Internet,Solucionado,Presencial,Ismael Jiménez,Se configura acceso a la red LAP-5 a computadora
+TICKET-54,02/10/2024,12:15,13:00,Aaron Othokani,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,"Se configuran aplicaciones en la computadora de Usiel (pdf, aspel y aplicativo de simulaciones)"
+TICKET-53,02/10/2024,11:45,11:50,Gilda González,CODEQUIM,Correo,Solucionado,Presencial,Ismael Jiménez,Se valida configuración de correo de ventas
+TICKET-52,27/09/2024,12:05,12:07,Irasema Lucio,CODEQUIM,Mouse,Solucionado,Presencial,Ismael Jiménez,Se realiza cambio de batería del mouse.
+TICKET-51,27/09/2024,10:30,10:40,Daniela Sánchez,CODEQUIM,Computadora,Solucionado,Sistemas,Ismael Jiménez,Se revisa computadora que se trabó abriendo un archivo. Se reinicia proceso del explorador de archivos y se valida la apertura correcta del archivo.
+TICKET-50,24/09/2024,11:00,11:05,Alma Salaís,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,Se revisa la conexión de a computadora porque no enciende y se realiza cambio de batería en el teclado.
+TICKET-49,24/09/2024,10:30,10:40,Giovana Huitrón,MEDICA DEL VALLE,Celular,Solucionado,Presencial,Ismael Jiménez,Se confgura cuenta de correo en el teléfono
+TICKET-48,20/09/2024,12:25,12:30,Daniela Sánchez,CODEQUIM,Internet,Solucionado,Presencial,Ismael Jiménez,Una página de internet manda un error. Se valida la configuración de privacidad y permisos del navegador.
+TICKET-47,20/09/2024,11:50,11:55,Guillermo Fernández,CODEQUIM,Celular,Solucionado,Presencial,Ismael Jiménez,La línea no envía ni recibe llamadas. Se valida que la línea esté activa en el portal. Se retira el chip para volver a insertarlo y se reliza la prueba correspondiente de llamadas.
+TICKET-46,19/09/2024,13:50,14:02,Gilda González,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Impresora muestra un mensaje de atasco de papel. Se valida la configuración de impresión con la hoja seleccionada. Por posible fallo en la impresora se pasa con Miguel.
+TICKET-45,19/09/2024,10:12,10:20,Alma Salaís,CODEQUIM,Correo,Solucionado,Presencial,Ismael Jiménez,El correo @killvec muestra error de autenticación. Se pasa con Miguel para revisión de contraseña y servidor.
+TICKET-44,18/09/2024,12:03,12:11,Guillermo Córdova,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Problema con Xerox. Se valida la conectividad con el equipo y la configuracion de impresión. Se realiza la prueba correspondiente con el trabajo a imprimir.
+TICKET-43,18/09/2024,10:56,11:02,Jaqueline Rodríguez,CODEQUIM,Teclado,Solucionado,Sistemas,Ismael Jiménez,Se instala base para monitor y se asigna teclado inalámbrico con mouse.
+TICKET-42,17/09/2024,13:30,13:45,Guillermo Córdova,CODEQUIM,Monitor,Solucionado,Sistemas,Ismael Jiménez,Se instala monitor en el área de trabajo y se hace prueba con el equipo.
+TICKET-41,17/09/2024,11:00,11:10,Daniela Rodríguez,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Problema con Kyocera. Se valida el estado de la conexión de red de la impresora y la conectividad con el equipo. Se realiza prueba de impresión.
+TICKET-40,12/09/2024,13:00,13:20,Daniela Sánchez,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Se instalan drivers para impresora personal Epson L3250 y se realizan las pruebas correspondientes de impresión y escaner.
+TICKET-39,12/09/2024,12:30,12:35,Usiel Silva,CODEQUIM,Baterías,Solucionado,Presencial,Ismael Jiménez,Se realiza cambio de baterías para mouse.
+TICKET-38,10/09/2024,12:45,12:50,Noemí Aparicio,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Se configura impresora Xerox para impresión y se realiza la prueba correspondiente.
+TICKET-37,10/09/2024,11:55,12:00,Usiel Silva,CODEQUIM,Baterías,Solucionado,Presencial,Ismael Jiménez,Se realiza cambio de baterías para medidor de corriente
+TICKET-36,10/09/2024,11:40,12:00,Guillermo Fernández,CODEQUIM,Conmutador,,Presencial,Ismael Jiménez,Problema para hacer transferir una llamada del teléfno de recepción
+TICKET-35,10/09/2024,11:40,11:50,Leslye López,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Problema par imprimir. Impresora marca un trabajo atorado y se traba.Se reinicia el equipo y se realiza la prueba correspondiente.
+TICKET-34,09/09/2024,10:10,13:00,Alma Salaís,CODEQUIM,Celular,Solucionado,Presencial,Ismael Jiménez,Problema con actualización de whatsapp. Se configura cuenta de google y se hace respaldo de los chats para continuar con la actualización.
+TICKET-33,04/09/2024,12:45,12:48,Javier Azuara,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Problema con imporesora. Se libera proceso atorado para continuar con la impresión del documento.
+TICKET-32,03/09/2024,12:30,12:34,Gilda González,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Problema con escaner xerox. Se finaliza proceso atorado para liberar escaner.
+TICKET-31,03/09/2024,11:20,11:25,Paola Pérez,MEDICA DEL VALLE,Impresora,Solucionado,Presencial,Ismael Jiménez,"Problema con el escaner de kyocera, se finaliza proceso atorado para liberar el escaner."
+TICKET-30,30/08/2024,13:55,13:57,Javier Azuara,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Se revisan ajustes de la impresora y se llena de papel la bandeja correspondiente al tamaño de impresión.
+TICKET-29,30/08/2024,11:15,11:30,Paola Pérez,MEDICA DEL VALLE,Carpeta compartida,Solucionado,Presencial,Ismael Jiménez,Se configura el acceso al sharepoint de Medica del Valle y se agrega al equipo para visualizarlo en el explorador de archivos.
+TICKET-28,27/08/2024,13:01,13:04,Brenda Flores,KILLVEC,Impresora,Solucionado,Presencial,Ismael Jiménez,Se cambia configuración de la impresora para que escanee subrayado con marcatextos
+TICKET-27,26/08/2024,12:30,13:30,Yael Pérez,CODEQUIM,Correo,Solucionado,Presencial,Ismael Jiménez,Se configura correo mediante pop para vaciar espacio en la nube
+TICKET-26,26/08/2024,11:30,11:50,Alma Salaís,CODEQUIM,Celular,Solucionado,Presencial,Ismael Jiménez,Se configura celular para empleado nuevo
+TICKET-25,23/08/2024,12:40,12:45,Brenda Flores,KILLVEC,Excel,Solucionado,Presencial,Ismael Jiménez,Ayuda con un formato de excel para impresión
+TICKET-24,20/08/2024,11:36,11:37,Irasema Lucio,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Se ajusta tamaño de papel para la copiadora
+TICKET-23,20/08/2024,11:15,11:20,Paola Pérez,MEDICA DEL VALLE,Carpeta compartida,Solucionado,Presencial,Ismael Jiménez,Se da acceso a la carpeta compartida Medvalle - Licitaciones
+TICKET-22,20/08/2024,11:01,11:02,Yael Pérez,CODEQUIM,Mouse,Solucionado,Presencial,Ismael Jiménez,Se realiza cambio de batería para el mouse
+TICKET-21,14/08/2024,11:30,11:35,Daniela Sánchez,CODEQUIM,Impresora,Solucionado,Sistemas,Ismael Jiménez,"Se checan niveles de tinta, se llena depósito de tinta negra."
+TICKET-20,13/08/2024,13:07,13:08,Yael Pérez,CODEQUIM,Baterías,Solucionado,Presencial,Ismael Jiménez,Se cambia batería del mouse.
+TICKET-19,09/08/2024,12:50,12:57,Jaqueline Rodríguez,CODEQUIM,Monitor,Solucionado,Sistemas,Ismael Jiménez,Se instala monitor en el área de trabajo y se hace prueba con el equipo.
+TICKET-18,09/08/2024,10:30,11:00,Ana Enríquez,CODEQUIM,Computadora,Solucionado,Presencial,Ismael Jiménez,"Se realiza un cambio de CPU, se cambia disco duro y se realiza limpieza de archivos temporales para mejorar el rendimiento."
+TICKET-17,08/08/2024,10:41,10:43,Noemí Aparicio,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Se configura la IP para Kyocera como impresora predeterminada y se realiza prueba de impresión.
+TICKET-16,07/08/2024,13:23,13:24,Gilda González,CODEQUIM,Teclado,Solucionado,Presencial,Ismael Jiménez,Se realiza limpieza de teclado con aerosol multiusos.
+TICKET-15,07/08/2024,10:25,10:28,Guillermo Fernández,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Se configura impresora Xerox para impresión y se realiza la prueba correspondiente.
+TICKET-14,06/08/2024,13:00,13:20,Usiel Silva,CODEQUIM,Outlook,Solucionado,Presencial,Ismael Jiménez,Se actualiza la firma del correo electrónico y las aplicaciones de office. Se realiza cambio de nombre en la cuenta de outlook.
+TICKET-13,06/08/2024,10:19,10:20,Henry Guillén,CODEQUIM,Internet,Solucionado,Presencial,Ismael Jiménez,Se da acceso a internet a una computradora externa para un curso.
+TICKET-12,05/08/2024,12:24,12:27,Aaron Othokani,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Se configura la IP para Kyocera como impresora predeterminada y se realiza prueba de impresión.
+TICKET-11,05/08/2024,11:27,11:32,Usiel Silva,CODEQUIM,Outlook,Solucionado,Presencial,Ismael Jiménez,"Outlook no refresca los correos, se revisa configuración y se hace prueba de envío de carpetas, todo en orden."
+TICKET-10,02/08/2024,11:00,11:15,Javier Azuara,CODEQUIM,Escáner,Solucionado,Presencial,Ismael Jiménez,Se revisan los ajustes del scanner. Se intenta escanear menos hojas del total y todo correcto.
+TICKET-9,01/08/2024,11:30,11:40,Cristina Ramírez,EXTERPLAG,Computadora,Solucionado,Presencial,Ismael Jiménez,Se configura kyocera como impresora predeterminada y se configura el nuevo usuario para el acceso remoto al servidor.
+TICKET-8,31/07/2024,12:19,12:20,Karla Banda,PAINTSHIELD,Mouse,Solucionado,Presencial,Ismael Jiménez,Se realiza el cambio de batería para el mouse.
+TICKET-7,30/07/2024,12:57,13:02,Usiel Silva,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Se configura la IP para Kyocera como impresora predeterminada y se realiza prueba de impresión.
+TICKET-6,29/07/2024,13:09,13:13,Paola Pérez,MEDICA DEL VALLE,Computadora,Solucionado,Presencial,Ismael Jiménez,"Se buggeó el equipo en pantalla bloqueada, se hace un reinicio forzado para solucionar."
+TICKET-5,25/07/2024,11:20,11:24,Antonio López,CODEQUIM,Teclado,Solucionado,Presencial,Ismael Jiménez,Cambio de mouse y teclado.
+TICKET-4,25/07/2024,10:40,10:55,Paola Pérez,MEDICA DEL VALLE,Impresora,Solucionado,Presencial,Ismael Jiménez,Se actualizan drivers de impresora y se hace prueba de impresión con Kyocera.
+TICKET-3,24/07/2024,13:48,13:50,Antonio López,CODEQUIM,Correo,Solucionado,Presencial,Ismael Jiménez,Se cambia la fuente principal con la que se redactan los correos electrónicos.
+TICKET-2,24/07/2024,13:22,13:24,Antonio López,CODEQUIM,Correo,Solucionado,Presencial,Ismael Jiménez,No actualizan correos de paintshield. Se comprueba configuración de correo.
+TICKET-1,23/07/2024,13:07,13:53,Miguel Angel Cornejo,CODEQUIM,Impresora,Solucionado,Presencial,Ismael Jiménez,Saida por impresora que se llevó a servicio de reparación.
