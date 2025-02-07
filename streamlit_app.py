@@ -42,12 +42,17 @@ asistencias = [
 
 # Arreglo de usuarios
 usuarios = [
-    "Aaron Othokani",
-    "Alma Salaís",
-    "Ana Enriquez",
-    "Eduardo Gomez",
+    "Aaron Vázquez", "Alma Salaís", "Ana Enriquez",
     "Antonio López",
     "Brenda García",
+    "Christian Betancourt",
+    "Cristina Ramírez",
+    "Daniel Ruiz",
+    "Daniela Rodríguez",
+    "Daniela Sánchez",
+    "Diego Durán",
+    "Eduardo Gomez",
+    "Felipe Angelez",
 ]
 
 #Arreglo de empresas
