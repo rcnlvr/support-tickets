@@ -20,7 +20,7 @@ try:
     df = pd.read_csv('tickets.csv')
 except FileNotFoundError:
     df = pd.DataFrame(columns=[
-        "ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "HORA INICIO", "HORA FIN", "SOLICITUD", "STATUS", "ATENDIÓ", "DESCRIPCIÓN"
+        "ID", "FECHA", "HORA INICIO", "HORA FIN", "USUARIO", "EMPRESA", "ASISTENCIA", "SOLICITUD", "STATUS", "ATENDIÓ", "DESCRIPCIÓN"
     ])
 
 # Guardar el DataFrame en el estado de sesión
