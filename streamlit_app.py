@@ -45,6 +45,7 @@ usuarios = [
     "Aaron Othokani",
     "Alma Salaís",
     "Ana Enriquez",
+    "Eduardo Gomez",
     "Antonio López",
     "Brenda García",
 ]
