@@ -38,7 +38,7 @@ asistencias = [
     "Documento",
     "Escáner",
     "Equipo (mouse, teclado, no break, etc.)",
-    "Huella Dactilar"
+    "Huella Dactilar",
     "Impresora",
     "Internet",
     "Outlook",
