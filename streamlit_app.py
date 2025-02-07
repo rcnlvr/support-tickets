@@ -20,7 +20,7 @@ try:
     df = pd.read_csv('tickets.csv')
 except FileNotFoundError:
     df = pd.DataFrame(columns=[
-        "ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "HORA INICIO", "HORA FIN", "STATUS", "ATENDIÓ", "DESCRIPCIÓN"
+        "ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "HORA INICIO", "HORA FIN", "SOLICITUD", "STATUS", "ATENDIÓ", "DESCRIPCIÓN"
     ])
 
 # Guardar el DataFrame en el estado de sesión
@@ -29,39 +29,36 @@ if "df" not in st.session_state:
 
 # Arreglo de asistencias
 asistencias = [
+    "Acceso Remoto",
     "Carpeta Compartida",
     "Celular",
+    "Computadora",
     "Conmutador",
     "Correo",
     "Documento",
     "Escáner",
-    "Equipo",
+    "Equipo (mouse, teclado, no break, etc.)",
+    "Huella Dactilar"
+    "Impresora",
+    "Internet",
+    "Outlook",
     "SAE",
     "Software",
+    "Otro"
 ]
 
 # Arreglo de usuarios
 usuarios = [
-    "Aaron Vázquez", "Alma Salaís", "Ana Enriquez",
-    "Antonio López",
-    "Brenda García",
-    "Christian Betancourt",
-    "Cristina Ramírez",
-    "Daniel Ruiz",
-    "Daniela Rodríguez",
-    "Daniela Sánchez",
-    "Diego Durán",
-    "Eduardo Gomez",
-    "Felipe Angelez",
+    "Aaron Vázquez", "Alma Salaís", "Andrés Loredo", "Andrés Martínez", "Antonio López", "Brenda García", "Christian Betancourt", "Cristina Ramírez", "Daniel Ruiz",
+    "Daniela Rodríguez", "Daniela Sánchez", "Diego Durán", "Eduardo Gomez", "Felipe Angeles", "Gabriela Vázquez", "Guadalupe Alcalá", "Guillermo Córdova",
+    "Guillermo Fernández", "Irasema Lucio", "Jaqueline Rodríguez", "Javier Azuara", "Juan Antonio Mendoza", "Karina Ramírez", "Leandro Guillén", "Leslye López",
+    "Luis Jardón", "Mariana Barrios", "Maripaz Corona", "Mauricio Ramírez", "Melanie Rangel", "Rodrigo Ensastiga", "Rodrigo Morales", "Usiel Silva", "Vania Ramírez",
+    "Viridiana Castillo", "Yael Pérez", "Yesenia Palestina"
 ]
 
 #Arreglo de empresas
 empresas = [
-    "CODEQUIM",
-    "MEDICA DEL VALLE",
-    "KILLVEC",
-    "EXTERPLAG",
-    "PAINTSHIELD",
+    "CODEQUIM", "MEDICA DEL VALLE", "KILLVEC", "EXTERPLAG", "PAINTSHIELD",
 ]
 
 # Arreglo del personal
@@ -79,6 +76,7 @@ with st.form("add_ticket_form"):
     usuario = st.selectbox("Usuario", usuarios)
     empresa = st.selectbox("Empresa", empresas)
     asistencia = st.selectbox("Asistencia", asistencias)
+    solicitud = st.selectbox("Solicitud", ["Presencial", "WhatsApp", "Jefe Directo"])
     atencion = st.selectbox("Atendió", sistemas)
     descripcion = st.text_area("Descripción")
     terminar = st.form_submit_button("Terminar")
@@ -103,7 +101,8 @@ if terminar:
                 "USUARIO": usuario,
                 "EMPRESA": empresa,
                 "ASISTENCIA": asistencia,
-                "STATUS": "En Proceso",
+                "STATUS": "Solucionado",
+                "SOLICITUD": solicitud,
                 "ATENDIÓ": atencion,
                 "DESCRIPCIÓN": descripcion,            
             }
@@ -136,12 +135,12 @@ edited_df = st.data_editor(
         "STATUS": st.column_config.SelectboxColumn(
             "STATUS",
             help="Ticket status",
-            options=["En Proceso", "Solucionado"],
+            options=["Solucionado", "En Proceso"],
             required=True,
         )
     },
     # Bloqueamos la edición del resto de columnas
-    disabled=["ID", "FECHA", "HORA INICIO", "HORA FIN", "USUARIO", "EMPRESA", "ASISTENCIA", "ATENDIÓ", "DESCRIPCIÓN"],
+    disabled=["ID", "FECHA", "USUARIO", "EMPRESA", "ASISTENCIA", "HORA INICIO", "SOLICITUD", "ATENDIÓ", "DESCRIPCIÓN"],
 )
 
 # Actualizar el DataFrame en el estado de sesión y guardar en el archivo CSV si hay cambios
